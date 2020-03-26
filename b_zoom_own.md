@@ -104,7 +104,7 @@ title: {{ site.name }}
 - ブレイクアウト設定：
   - https://support.zoom.us/hc/ja/articles/206476313-%E3%83%93%E3%83%87%E3%82%AA%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AB%E3%83%BC%E3%83%A0%E3%81%AE%E7%AE%A1%E7%90%86
 
-※受講者の会議室の入り方
+<!--※受講者の会議室の入り方
 ## (1) URLを使って入る
 - 会議室のURL（https://zoom.us/j/xxxxxxxxxx xは数字）にアクセスする
 - Webブラウザ上で「Zoom Meetings を開く」を押下する
@@ -118,15 +118,18 @@ title: {{ site.name }}
 - 「ミーティングに参加」を押下
 - 「ミーティングID（9-10桁の数字）と名前を入力する
   - パスワードが設定されている場合は、パスワードを入力する
+-->
 
-クイックスタートビデオ（Zoom）
+<!--クイックスタートビデオ（Zoom）
 https://www.youtube.com/playlist?list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x
 ビデオチュートリアル（Zoom）
   - https://support.zoom.us/hc/ja/articles/206618765-Zoom%E3%83%93%E3%83%87%E3%82%AA%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB
 Zoom のヘルプページ
   - https://support.zoom.us/hc/ja/categories/200101697
   
-## 受講者側
+  -->
+  
+<!--## 受講者側
 - 「サインイン」をクリック
     - 補足：他の人のミーティングに参加する（授業に参加する）場合は「ミーティングに参加」をクリック
     - 補足：MacではじめてZOOMを使う時、マイクやカメラへのアクセス許可が求えられる。すべて「OK」にする
@@ -134,6 +137,7 @@ Zoom のヘルプページ
  https://www.youtube.com/watch?v=p2x9hh8Vo2k&list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x&index=8&t=0s
  - 出席者がビデオまたはマイクをオフにする
  https://support.zoom.us/hc/ja/articles/203024649-%E5%87%BA%E5%B8%AD%E8%80%85%E3%81%8C%E3%83%93%E3%83%87%E3%82%AA%E3%81%BE%E3%81%9F%E3%81%AF%E3%83%9E%E3%82%A4%E3%82%AF%E3%82%92%E3%82%AA%E3%83%95%E3%81%AB%E3%81%99%E3%82%8B
+-->
 
 
 ```python
