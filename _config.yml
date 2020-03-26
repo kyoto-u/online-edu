@@ -1,0 +1,37 @@
+theme: jekyll-theme-cayman
+# plugins:
+#   - jekyll-relative-links
+  
+include:
+  index.md
+  panda.md
+  kaltura.md
+  a_zoom_classroom.md
+  b_zoom_own.md
+  c1_slidedeck.md
+  c2_video_capture.md
+  d_slidedeck_share.md
+  e_others.md
+
+# relative_links:
+#   enabled: true
+#   collections: true
+
+title: オンライン授業支援のためのリソース（仮）
+# description: " aaaa"
+
+
+
+# github:
+#   is_project_page: false
+
+# custom_header: true
+# custom_nav_footer: false
+# reverse: false
+
+# header_page_refs: ['now', 'panda', 'contact']
+
+#Others
+markdown: kramdown
+
+theme: jekyll-theme-cayman
