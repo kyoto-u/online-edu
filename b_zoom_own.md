@@ -72,9 +72,9 @@ title: {{ site.name }}
 
 
 ## (3) 画面共有
- - 画面共有
-    - https://www.youtube.com/watch?v=Y8lC6txDoEs&list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x&index=4&t=0s
-    - https://support.zoom.us/hc/ja/articles/201362153-%E7%94%BB%E9%9D%A2%E3%82%92%E5%85%B1%E6%9C%89%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B-
+ - Zoomを実行しているデスクトップ、タブレット、モバイルデバイスでの 画面共有が可能になる
+    - 参考：[画面の共有](https://www.youtube.com/watch?v=Y8lC6txDoEs&list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x&index=4&t=0s)（動画）
+    - 参考：[画面を共有するにはどうすればよいですか？](https://support.zoom.us/hc/ja/articles/201362153-%E7%94%BB%E9%9D%A2%E3%82%92%E5%85%B1%E6%9C%89%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B-)
 - 画面共有中にコンピューターサウンドを共有する
     - https://support.zoom.us/hc/ja/articles/201362643-%E7%94%BB%E9%9D%A2%E5%85%B1%E6%9C%89%E4%B8%AD%E3%81%AB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%82%92%E5%85%B1%E6%9C%89%E3%81%99%E3%82%8B
  - 画面共有の左右表示モード
