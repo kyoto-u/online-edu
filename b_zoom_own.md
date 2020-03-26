@@ -61,13 +61,14 @@ title: {{ site.name }}
 
 ## (3) ミーティングの実施
  - スケジュールしたミーティングを開始する
-   - 参考：[ホストとしてミーティングを開始したり、スケジュールされたミーティングに参加するにはどうすればよいですか？](https://support.zoom.us/hc/ja/articles/201362423-ホストとしてミーティングを開始したり-スケジュールされたミーティングに参加するにはどうすればよいですか-)
-    - 参考：[ビデオをテストする方法は？](https://support.zoom.us/hc/ja/articles/201362313-%E3%83%93%E3%83%87%E3%82%AA%E3%82%92%E3%83%86%E3%82%B9%E3%83%88%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%AF-)
-   - 参考：[オーディオとビデオの設定](https://www.youtube.com/watch?v=RDz24Y7qUio&list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x&index=3&t=0s)
-    - 参考：[ミーティングの録画](https://www.youtube.com/watch?v=rH3usc2lM6w&list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x&index=6&t=0s)
-   - 参考：[アクティブスピーカー（ビデオレイアウト）](https://support.zoom.us/hc/ja/articles/201362403-%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC-%E3%83%93%E3%83%87%E3%82%AA%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88-)
-   - 参考：[ミーティング中のオーディオエコー](https://support.zoom.us/hc/ja/articles/202050538-%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E4%B8%AD%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%82%A8%E3%82%B3%E3%83%BC)
-    - 参考：[ミーティング中の出席者管理](https://support.zoom.us/hc/ja/articles/200941109-%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E4%B8%AD%E3%81%AE%E5%87%BA%E5%B8%AD%E8%80%85%E7%AE%A1%E7%90%86)
+   - 参考情報
+     - [ホストとしてミーティングを開始したり、スケジュールされたミーティングに参加するにはどうすればよいですか？](https://support.zoom.us/hc/ja/articles/201362423-ホストとしてミーティングを開始したり-スケジュールされたミーティングに参加するにはどうすればよいですか-)
+     - [ビデオをテストする方法は？](https://support.zoom.us/hc/ja/articles/201362313-%E3%83%93%E3%83%87%E3%82%AA%E3%82%92%E3%83%86%E3%82%B9%E3%83%88%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%AF-)
+     - [オーディオとビデオの設定](https://www.youtube.com/watch?v=RDz24Y7qUio&list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x&index=3&t=0s)
+     - [ミーティングの録画](https://www.youtube.com/watch?v=rH3usc2lM6w&list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x&index=6&t=0s)
+      - [アクティブスピーカー（ビデオレイアウト）](https://support.zoom.us/hc/ja/articles/201362403-%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC-%E3%83%93%E3%83%87%E3%82%AA%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88-)
+      - [ミーティング中のオーディオエコー](https://support.zoom.us/hc/ja/articles/202050538-%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E4%B8%AD%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%82%A8%E3%82%B3%E3%83%BC)
+      - [ミーティング中の出席者管理](https://support.zoom.us/hc/ja/articles/200941109-%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E4%B8%AD%E3%81%AE%E5%87%BA%E5%B8%AD%E8%80%85%E7%AE%A1%E7%90%86)
 
 
 ## (3) 画面共有
