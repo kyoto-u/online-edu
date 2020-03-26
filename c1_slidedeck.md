@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: {{ site.name }}
+---
 # C1. ナレーション付きスライドで配信
 
 - PowerPointやKeynote等のスライドを、解説の音声とともに学生に提示する方法について説明します。
@@ -135,11 +138,13 @@ PandA内で、映像教材支援ツール「Kaltura」が利用できます。Ka
 
 （作成中）
 
+<!--
 ### c. Nextcloudを利用する
 情報環境機構が提供するクラウドストレージサービス（Nextcloud）が利用できます。ログイン方法、利用方法については下記ページをご覧ください。  
 http://www.iimc.kyoto-u.ac.jp/ja/services/ecs/cloud_storage/
+-->
 
-### d. YouTubeに動画をアップロードする
+### c. YouTubeに動画をアップロードする
 - YouTubeのアカウントで動画をアップロードし、その動画を「限定公開」とすることで、動画のURLを通知されたものだけが動画にアクセスできます。
 - 学生にはPandA等を通じて動画のURLを知らせます。
 
