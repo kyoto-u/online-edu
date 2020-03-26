@@ -35,7 +35,7 @@ title: {{ site.name }}
 - PCにZoom アプリをダウンロードして、インストールする
   - 参考：[ダウンロードページ](https://zoom.us/download#client_4meeting)
     - iOSの場合、Appleの [App Store](https://apps.apple.com/us/app/zoom-us-cloud-video-meetings/id546505307) にアクセスして、「zoom」で 検索する
-    - Androidの場合、 [Google Play]https://play.google.com/store/apps/details?id=us.zoom.videomeetings() にアクセスして「zoom」で検索する
+    - Androidの場合、 [Google Play](https://play.google.com/store/apps/details?id=us.zoom.videomeetings) にアクセスして「zoom」で検索する
 
 <!--- 参考ページ
     - https://support.zoom.us/hc/ja/articles/201362613-%E3%83%93%E3%83%87%E3%82%AA%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%92%E3%83%9B%E3%82%B9%E3%83%88%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B-
