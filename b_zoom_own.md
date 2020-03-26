@@ -7,15 +7,11 @@ title: {{ site.name }}
 - 教室・研究室・自宅等で教員自身がZoomの会議室を作成し、オンライン授業をおこないます。
 
 - すでにお持ちの個人アカウントを利用する場合、40分の時間制限があります。現在（4/30まで）、国内教育関係者向けにサービスの無償提供を実施しており、ac.jpドメインでサインアップすると、最大100名参加、時間制限なしで会議室が作成できます。
-  - [Zoom のプラン](https://zoom.us/pricing){:target="_blank"}
+  - [Zoom のプラン](https://zoom.us/pricing)
     - 「無料版」は、3名以上100名以下で最大40分まで利用可能
-  - 以下のURLから4/30までは有償版を無料で使用できる（最大300名まで時間制限なし回数制限なしで利用可能）
-    - https://www.learning-innovation.go.jp/covid_19/zoom/ 
-  - Zoom の製品概要
-    - https://support.zoom.us/hc/ja/articles/206618765-Zoom%E3%83%93%E3%83%87%E3%82%AA%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB
-  - Zoom のミーティング概要
-    - https://zoom.us/recording/play/pjMU3AuuvYNZzM_eLTruxORZ1yHeu5UBkDHzYBbueNgZewBFqn2Ud8hXntQ9uL0x
-
+  - [4/30までは有償版を無料で使用できる](https://www.learning-innovation.go.jp/covid_19/zoom/)（最大300名まで時間制限なし回数制限なしで利用可能）
+  - Zoom の[製品概要](https://support.zoom.us/hc/ja/articles/206618765-Zoom%E3%83%93%E3%83%87%E3%82%AA%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB)
+  - Zoom の[ミーティング概要](https://zoom.us/recording/play/pjMU3AuuvYNZzM_eLTruxORZ1yHeu5UBkDHzYBbueNgZewBFqn2Ud8hXntQ9uL0x)
 
 ## (1) 必要なもの
   - PC（ノート、デスクトップ）
