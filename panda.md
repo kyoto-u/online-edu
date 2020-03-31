@@ -12,6 +12,13 @@ title: {{ site.name }}
 
 ※以下のページ番号は[教員用マニュアル](http://www.iimc.kyoto-u.ac.jp/services/learning_supporting_system/PandA/pdf/panda_tebiki_f.pdf)のページ
 
+## 講習会に関する情報
+PandA、Zoom等に関する講習会開催の情報を、以下のサイトで随時更新しています。
+- 高等教育研究開発推進センター：Teaching Online 学内講習会
+  - [https://www.highedu.kyoto-u.ac.jp/connect/teachingonline/guidances.php](https://www.highedu.kyoto-u.ac.jp/connect/teachingonline/guidances.php)
+- 情報環境機構：イベント・講習会
+  - [http://www.iimc.kyoto-u.ac.jp](http://www.iimc.kyoto-u.ac.jp)
+
 ## PandAにアクセスする (p.3)
 
 - [PandA](https://panda.ecs.kyoto-u.ac.jp)にアクセスし、右上の「ログイン」をクリック
