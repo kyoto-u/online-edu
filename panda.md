@@ -7,21 +7,21 @@ title: {{ site.name }}
 
 京都大学の学習管理システム（LMS: Learning Management System）。教材の配布、課題やクイズの作成・提示、成績の集計、受講者への案内、掲示板（フォーラム）、Kaltura（動画配信）等の授業支援ツールが利用できるオンライン教育・学習環境です。
 
-- PandA https://panda.ecs.kyoto-u.ac.jp
-- PandAに関する情報・マニュアル等（情報環境機構） http://www.iimc.kyoto-u.ac.jp/ja/services/lms/
+- PandA <a href="https://panda.ecs.kyoto-u.ac.jp" target="_blank">https://panda.ecs.kyoto-u.ac.jp</a>
+- PandAに関する情報・マニュアル等（情報環境機構） <a href="http://www.iimc.kyoto-u.ac.jp/ja/services/lms/" target="_blank">http://www.iimc.kyoto-u.ac.jp/ja/services/lms/</a>
 
-※以下のページ番号は[教員用マニュアル](http://www.iimc.kyoto-u.ac.jp/services/learning_supporting_system/PandA/pdf/panda_tebiki_f.pdf)のページ
+※以下のページ番号は<a href="http://www.iimc.kyoto-u.ac.jp/services/learning_supporting_system/PandA/pdf/panda_tebiki_f.pdf" target="_blank">教員用マニュアル</a>のページ
 
 ## 講習会に関する情報
 PandA、Zoom等に関する講習会開催の情報を、以下のサイトで随時更新しています。
 - 高等教育研究開発推進センター：Teaching Online 学内講習会
-  - [https://www.highedu.kyoto-u.ac.jp/connect/teachingonline/guidances.php](https://www.highedu.kyoto-u.ac.jp/connect/teachingonline/guidances.php)
+  - <a href="https://www.highedu.kyoto-u.ac.jp/connect/teachingonline/guidances.php" target="_blank">https://www.highedu.kyoto-u.ac.jp/connect/teachingonline/guidances.php</a>
 - 情報環境機構：イベント・講習会
-  - [http://www.iimc.kyoto-u.ac.jp](http://www.iimc.kyoto-u.ac.jp)
+  - <a href="http://www.iimc.kyoto-u.ac.jp" target="_blank">http://www.iimc.kyoto-u.ac.jp</a>
 
 ## PandAにアクセスする (p.3)
 
-- [PandA](https://panda.ecs.kyoto-u.ac.jp)にアクセスし、右上の「ログイン」をクリック
+- <a href="https://panda.ecs.kyoto-u.ac.jp" target="_blank">PandA</a>にアクセスし、右上の「ログイン」をクリック
 - ログイン画面でユーザID（教職員等はSPS-ID・学生はECS-ID）とパスワードを入力
   - PandAを利用するには、[教職員アカウント（SPS-ID）](http://www.iimc.kyoto-u.ac.jp/ja/services/cert/sps_id/)または[学生アカウント（ECS-ID）](http://www.iimc.kyoto-u.ac.jp/ja/services/cert/ecs_id/use/ecs_account.html)が必要です。
 
