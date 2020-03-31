@@ -24,7 +24,7 @@ title: {{ site.name }}
     - 「無料版」は、3名以上100名以下で最大40分まで利用可能
     - 参考：[Zoomミーティングプラン](https://zoom.us/pricing)
 <!--   - 4/30までは有償版を無料で使用できる（最大300名まで時間制限なし回数制限なしで利用可能）-->
-<!00    - 参考：[【Zoom】遠隔授業向け クラウドビデオ会議サービス「Zoom」 ■学校への提供 ■無料（2020年4月30日まで）](https://www.learning-innovation.go.jp/covid_19/zoom/) -->
+<!--    - 参考：[【Zoom】遠隔授業向け クラウドビデオ会議サービス「Zoom」 ■学校への提供 ■無料（2020年4月30日まで）](https://www.learning-innovation.go.jp/covid_19/zoom/) -->
   - Zoom の製品概要は[こちら](https://zoom.us/jp-jp/about.html)
   - Zoom のミーティング概要は[こちら](https://zoom.us/recording/play/pjMU3AuuvYNZzM_eLTruxORZ1yHeu5UBkDHzYBbueNgZewBFqn2Ud8hXntQ9uL0x)（動画）
 
