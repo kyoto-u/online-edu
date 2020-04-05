@@ -1,6 +1,6 @@
 ---
 layout: default
-title: {{ site.name }}
+title: オンラインミーティングサービス(全学Zoom)ポータル 
 ---
 # Zoomの概要
 
