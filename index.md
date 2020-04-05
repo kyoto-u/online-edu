@@ -74,6 +74,3 @@ title: {{ site.name }}
 -->
 
 
-```python
-
-```
