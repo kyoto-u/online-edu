@@ -40,5 +40,7 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 
 [Zoomのセキュリティとプライバシー問題について](zoom-security)
 
+## お問い合わせ
+
 Zoom全学ライセンスについてのお問い合わせは、 online_support _at_ mail2.adm.kyoto-u.ac.jp までお願いいたします(メールアドレスの_at_を@に変えて下さい)。 
 
