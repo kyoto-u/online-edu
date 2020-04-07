@@ -28,6 +28,9 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 [クイックスタートビデオ](https://www.youtube.com/playlist?list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x)（Zoom）
 - ツールの利用方法など様々な解説ビデオが視聴できます
 
+[Zoom講習会資料](https://drive.google.com/file/d/1qwR5cWeZ4PkVAUT44Sr7awY9YBNpzpIW/view) (PDF)
+- 4/3に開催されたZoom講習会の資料です
+
 ## Zoom全学ライセンスの登録について
 
 - 登録手続きを行うことにより、京都大学Zoom全学ライセンスをご利用頂けます。
