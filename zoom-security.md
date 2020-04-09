@@ -10,7 +10,7 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 ## 最新の状況
 
 - Zoomクライアントアプリにアップデート(April 7, 2020, [Windows: Version 4.6.10 (20033.0407)](https://support.zoom.us/hc/en-us/articles/201361953-New-Updates-for-Windows), [Mac: Version 4.6.10 (20041.0408)](https://support.zoom.us/hc/en-us/articles/201361963-New-Updates-for-macOS))が出ています。セキュリティ上の使い勝手の改善(セキュリティボタンの追加)などが行われていますので適用をお願いします (4/9)
-- Zoomクライアントアプリにアップデート(April 2, 2020, Windows: Version 4.6.9 (19253.0401), Mac: Version 4.6.9 (19273.0402))が出ています。UNC Path問題への対処となるため、至急適用してください (4/3)
+- Zoomクライアントアプリにアップデート(April 2, 2020, Windows: Version 4.6.9 (19253.0401), Mac: Version 4.6.9 (19273.0402))が出ています。UNC Path問題への対処となるため、**至急適用してください** (4/3) [参考情報](https://www.ipa.go.jp/security/ciadr/vul/alert20200403.html)
 - 全学ライセンス下のユーザーについても、今後ミーティングパスワードの設定が必須となります。これによりいわゆるZoom Bombing問題のリスクが低減されますが、ミーティングの周知方法を再度確認してください (4/6)
 
 
