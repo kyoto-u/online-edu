@@ -30,8 +30,8 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 [クイックスタートビデオ](https://www.youtube.com/playlist?list=PLKpRxBfeD1kHaJpuWa-DKjWykMedlLZ0x)（Zoom）
 - ツールの利用方法など様々な解説ビデオが視聴できます
 
-[Zoom講習会資料](https://drive.google.com/open?id=1X6kQcIxmWXoyXre2j6_w64o-RsL7k0o_) (PDF)
-- 4/10開催のZoom講習会の資料です（京都大学の教職員全学アカウント(SPS-ID)で認証すると入手可能です）
+[Zoom講習会 資料及び録画映像](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/resources.html) (PDF)
+- 4/10開催のZoom講習会の資料及び録画映像です（SPS-ID及びECS-IDによる認証(京都大学統合認証)が必要、ただしECS-IDで閲覧可能なのは非常勤講師のみ）
 
 
 ## Zoom全学ライセンスの登録について
