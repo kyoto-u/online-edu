@@ -14,7 +14,7 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 - [Zoom全学ライセンスの登録について](#anch04)
 - [Zoomのセキュリティとプライバシー問題について](#anch05)
 - [Zoom講習会 Q&A](#anch06)
-- [お問い合わせ](#anch06)
+- [お問い合わせ](#anch07)
 
 <a id="anch01"></a>
 ## <a href="#anch01">オンラインミーティングサービスZoom全学ライセンスの概要</a>
@@ -69,10 +69,11 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 <a id="anch06"></a>
 ## <a href="#anch06">Zoom講習会 Q&A</a>
 Zoom講習会についてのQ&Aは以下のページに掲載しています。
+
 <a href="https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html" target="_blank">Zoom講習会 Q&A</a>
 
 <a id="anch07"></a>
-## <a href="#anch07">お問い合わせ</s>
+## <a href="#anch07">お問い合わせ</a>
 
 Zoom全学ライセンスについてのお問い合わせは、 online_support _at_ mail2.adm.kyoto-u.ac.jp までお願いいたします(メールアドレスの _at_ を@に変えて下さい)。 
 
