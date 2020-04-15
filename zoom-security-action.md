@@ -60,7 +60,7 @@ Zoomミーティングについての情報
 ミーティング情報の漏洩の可能性:
 ```
 
-連絡先: online_support _at_ iimc.kyoto-u.ac.jp (_at_ を @ に書き換えてください) 
+連絡先: online_support _at_ mail2.adm.kyoto-u.ac.jp (_at_ を @ に書き換えてください) 
 
 ## インシデントの発生を避けるために
 
