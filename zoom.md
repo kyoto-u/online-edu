@@ -66,6 +66,7 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 近年Zoomに関して報道されているセキュリティ・プライバシー上の問題についての情報は以下のページに掲載しています。
 
 [Zoomのセキュリティとプライバシー問題について](zoom-security)
+[Zoomミーティングにおける妨害対策について](zoom-security-action)
 
 <a id="anch06"></a>
 ## <a href="#anch06">Zoom講習会 Q&A</a>
