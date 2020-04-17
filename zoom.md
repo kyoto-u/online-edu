@@ -42,10 +42,11 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 - その他、様々な機能があります
 
 [スタートマニュアル：PandAでZoomを使うには](https://www.iimc.kyoto-u.ac.jp/ja/services/lms/#panda-zoom)
-- 学習支援システムPandAから起動するマニュアルです。PandAには予め講義の履修名簿が同期されているため、学生への案内がスムーズになります。
+- 学習支援システムPandAからZoomを起動するマニュアルです。PandAには予め講義の履修名簿が同期されているため、学生への案内がスムーズになります。
 
 [Zoom講習会 資料及び録画映像](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/resources.html)
 - 4/10開催のZoom講習会の資料及び録画映像です（SPS-ID及びECS-IDによる認証(京都大学統合認証)が必要、ただしECS-IDで閲覧可能なのは非常勤講師のみ）
+- また、講習会で質問があった事項の[Q&A](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html)もあります
 
 <a id="anch04"></a>
 ## <a href="#anch04">Zoom全学ライセンスの登録について</a>
