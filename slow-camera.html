@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Slow Camera</title>
+  <title>Slow Rate Camera</title>
   <style>
-  canvas, video{
+  canvas, video {
     border: 1px solid gray;
   }
   </style>
@@ -13,51 +13,49 @@
 
 <h1>HTML5 Slow Rate Camera</h1>
 
-<button onclick="pauseCamera()">Pause Video</button>
+<button id="pause" onclick="pauseCamera()">Pause Video</button>
 <button onclick="switchCamera()">Switch Camera</button>
 <br>
 <video id="camera" hidden></video>
 <canvas id="picture"></canvas>
 
 <script>
-const interval = 2000;
-
-const video  = document.querySelector("#camera");
-const canvas = document.querySelector("#picture");
+const interval = 1000;
 
 const constraints = {
   audio: false,
   video: {
-    facingMode: "user"   // フロントカメラを利用する
- // facingMode: { exact: "environment" }  // リアカメラを利用する場合
+    facingMode: "user"
   }
 };
-  
-const running = 1;
-const interval_id;
+
+const video  = document.querySelector("#camera");
+const canvas = document.querySelector("#picture");
+
+var running = 1;
 
 window.onload = () => {
+
   navigator.mediaDevices.getUserMedia(constraints)
   .then( (stream) => {
     video.srcObject = stream;
-    video.onloadedmetadata = (e) => {
-      video.play();
-    };
-    running = 1;
   })
   .catch( (err) => {
     alart(err.name + ": " + err.message);
   });
+  video.play();
 
-   interval_id = setInterval(shutter, interval);
+  setInterval(capture, interval);
 };
 
-function shutter(){
+function capture(){
   const ctx = canvas.getContext("2d");
 
-  canvas.width  = video.videoWidth;
-  canvas.height = video.videoHeight;
-  ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  if(running){
+    canvas.width  = video.videoWidth;
+    canvas.height = video.videoHeight;
+    ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  }
 }
 
 function switchCamera() {
@@ -75,36 +73,22 @@ function switchCamera() {
     video.onloadedmetadata = (e) => {
       video.play();
     };
-    running = 1;
   })
   .catch( (err) => {
     alart(err.name + ": " + err.message);
   });
-}
-  
-function pauseCamera() {
-  if(running){
-    clearInterval(interval_id);
-    video.srcObject.getVideoTracks().forEach( (camera) => {
-      camera.stop();
-    });
-    running = 0;
-  } else {
-    navigator.mediaDevices.getUserMedia(constraints)
-    .then( (stream) => {
-      video.srcObject = stream;
-      video.onloadedmetadata = (e) => {
-        video.play();
-      };
-    })
-    .catch( (err) => {
-      alart(err.name + ": " + err.message);
-    });
-    running = 1;
-    interval_id = setInterval(shutter, interval);
-  }
+  running = 1;
 }
 
+function pauseCamera() {
+  if(running){
+    running = 0;
+    document.getElementById("pause").style.backgroundColor = "red";
+  } else {
+    running = 1;
+    document.getElementById("pause").style.backgroundColor = "white";
+  }
+}
 </script>
 </body>
 </html>
