@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Slow Camera</title>
+  <style>
+  canvas, video{
+    border: 1px solid gray;
+  }
+  </style>
+</head>
+<body>
+
+<h1>HTML5 Slow Rate Camera</h1>
+
+<video id="camera" hidden></video>
+<canvas id="picture"></canvas>
+
+<script>
+window.onload = () => {
+  const video  = document.querySelector("#camera");
+  const canvas = document.querySelector("#picture");
+
+  const constraints = {
+    audio: false,
+    video: {
+      facingMode: "user"   // フロントカメラを利用する
+      // facingMode: { exact: "environment" }  // リアカメラを利用する場合
+    }
+  };
+
+  navigator.mediaDevices.getUserMedia(constraints)
+  .then( (stream) => {
+    video.srcObject = stream;
+    video.onloadedmetadata = (e) => {
+      video.play();
+    };
+  })
+  .catch( (err) => {
+    console.log(err.name + ": " + err.message);
+  });
+
+   const interval = 2000;
+
+   setInterval(shutter, interval);
+
+   function shutter(){
+    const ctx = canvas.getContext("2d");
+
+    canvas.width  = video.videoWidth;
+    canvas.height = video.videoHeight;
+    ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  }
+};
+
+</script>
+</body>
+</html>
