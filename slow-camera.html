@@ -18,26 +18,32 @@
 <button onclick="switchCamera()">Switch Camera</button>
 
 <script>
-  const interval = 2000;
-  const video  = document.querySelector("#camera");
-  const canvas = document.querySelector("#picture");
+const interval = 2000;
 
-  const constraints = {
-    audio: false,
-    video: {
-      facingMode: "user"   // フロントカメラを利用する
-      // facingMode: { exact: "environment" }  // リアカメラを利用する場合
-    }
-  };
+const video  = document.querySelector("#camera");
+const canvas = document.querySelector("#picture");
+
+const constraints = {
+  audio: false,
+  video: {
+    facingMode: "user"   // フロントカメラを利用する
+ // facingMode: { exact: "environment" }  // リアカメラを利用する場合
+  }
+};
 
 window.onload = () => {
   navigator.mediaDevices.getUserMedia(constraints)
-  .then( stream => video.srcObject = stream; )
-  .catch(err => alert(`${err.name} ${err.message}`));
-  
-  video.play();
-  
-  setInterval(shutter, interval);
+  .then( (stream) => {
+    video.srcObject = stream;
+    video.onloadedmetadata = (e) => {
+      video.play();
+    };
+  })
+  .catch( (err) => {
+    alart(err.name + ": " + err.message);
+  });
+
+   setInterval(shutter, interval);
 };
 
 function shutter(){
@@ -47,7 +53,7 @@ function shutter(){
   canvas.height = video.videoHeight;
   ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 }
-  
+
 function switchCamera() {
   video.srcObject.getVideoTracks().forEach( (camera) => {
     camera.stop();
@@ -58,10 +64,17 @@ function switchCamera() {
      constraints.video.facingMode = "user";
   }
   navigator.mediaDevices.getUserMedia(constraints)
-    .then( stream => video.srcObject = stream; )
-    .catch(err => alert(`${err.name} ${err.message}`));
+  .then( (stream) => {
+    video.srcObject = stream;
+    video.onloadedmetadata = (e) => {
+      video.play();
+    };
+  })
+  .catch( (err) => {
+    alart(err.name + ": " + err.message);
+  });
 }
- 
+
 </script>
 </body>
 </html>
