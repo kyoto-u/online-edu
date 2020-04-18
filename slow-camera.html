@@ -83,10 +83,21 @@ function switchCamera() {
   
 function pauseCamera() {
   if(running){
-    video.pause();
+    video.srcObject.getVideoTracks().forEach( (camera) => {
+      camera.stop();
+    });
     running = 0;
   } else {
-    video.play();
+    navigator.mediaDevices.getUserMedia(constraints)
+    .then( (stream) => {
+      video.srcObject = stream;
+      video.onloadedmetadata = (e) => {
+        video.play();
+      };
+    })
+    .catch( (err) => {
+      alart(err.name + ": " + err.message);
+    });
     running = 1;
   }
 }
