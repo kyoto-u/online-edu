@@ -13,6 +13,7 @@
 
 <h1>HTML5 Slow Rate Camera</h1>
 
+<button onclick="pauseCamera()">Pause</button>
 <button onclick="switchCamera()">Switch Camera</button>
 <video id="camera" hidden></video>
 <canvas id="picture"></canvas>
@@ -30,6 +31,8 @@ const constraints = {
  // facingMode: { exact: "environment" }  // リアカメラを利用する場合
   }
 };
+  
+const running = 1;
 
 window.onload = () => {
   navigator.mediaDevices.getUserMedia(constraints)
@@ -38,6 +41,7 @@ window.onload = () => {
     video.onloadedmetadata = (e) => {
       video.play();
     };
+    running = 1;
   })
   .catch( (err) => {
     alart(err.name + ": " + err.message);
@@ -69,10 +73,25 @@ function switchCamera() {
     video.onloadedmetadata = (e) => {
       video.play();
     };
+    running = 1;
   })
   .catch( (err) => {
     alart(err.name + ": " + err.message);
   });
+}
+  
+function pauseCamera() {
+  if(running){
+    video.onloadedmetadata = (e) => {
+      video.pause();
+    };
+    running = 0;
+  } else {
+    video.onloadedmetadata = (e) => {
+      video.play();
+    };
+    running = 1;
+  }
 }
 
 </script>
