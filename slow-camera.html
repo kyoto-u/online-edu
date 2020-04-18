@@ -15,13 +15,15 @@
 
 <button id="pause" onclick="pauseCamera()">Pause Video</button>
 <button onclick="switchCamera()">Switch Camera</button>
+<form name="param" style="display: inline">
+Interval(msec):<input name="interval" type="number" size="8" value="1000" step="100" autofocus>
+</form>
+<button id="submit" onclick="changeInterval()">Set</button>
 <br>
 <video id="camera" hidden></video>
 <canvas id="picture"></canvas>
 
 <script>
-const interval = 1000;
-
 const constraints = {
   audio: false,
   video: {
@@ -34,10 +36,11 @@ const constraints = {
 const video  = document.querySelector("#camera");
 const canvas = document.querySelector("#picture");
 
+var interval = 1000;
 var running = 1;
-
+var iid = 0;
+  
 window.onload = () => {
-
   navigator.mediaDevices.getUserMedia(constraints)
   .then( (stream) => {
     video.srcObject = stream;
@@ -47,9 +50,15 @@ window.onload = () => {
   });
   video.play();
 
-  setInterval(capture, interval);
+  iid = setInterval(capture, interval);
 };
 
+function changeInterval(){
+  interval = document.param.interval.value;
+  clearInterval(iid);
+  iid = setInterval(capture, interval);
+}
+  
 function capture(){
   const ctx = canvas.getContext("2d");
 
