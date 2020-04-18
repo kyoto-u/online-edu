@@ -34,7 +34,9 @@ window.onload = () => {
   navigator.mediaDevices.getUserMedia(constraints)
   .then( stream => video.srcObject = stream; )
   .catch(err => alert(`${err.name} ${err.message}`));
-
+  
+  video.play();
+  
   setInterval(shutter, interval);
 };
 
