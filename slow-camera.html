@@ -15,6 +15,7 @@
 
 <video id="camera" hidden></video>
 <canvas id="picture"></canvas>
+<button onclick="switchCamera()">Switch Camera</button>
 
 <script>
 window.onload = () => {
@@ -36,8 +37,7 @@ window.onload = () => {
       video.play();
     };
   })
-  .catch( (err) => {
-    console.log(err.name + ": " + err.message);
+  .catch(err => alert(`${err.name} ${err.message}`));
   });
 
    const interval = 2000;
@@ -53,6 +53,20 @@ window.onload = () => {
   }
 };
 
+function switchCamera() {
+  video.srcObject.getVideoTracks().forEach( (camera) => {
+    camera.stop();
+  });
+  if(constraints.video.facingMode == "user") {
+     constraints.video.facingMode = { exact: "environment" };
+  } else {
+     constraints.video.facingMode = "user";
+  }
+  navigator.mediaDevices.getUserMedia(constraints)
+    .then(video.srcObject = stream)
+    .catch(err => alert(`${err.name} ${err.message}`));
+}
+ 
 </script>
 </body>
 </html>
