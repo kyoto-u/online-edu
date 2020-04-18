@@ -34,6 +34,7 @@ const constraints = {
 };
   
 const running = 1;
+const interval_id;
 
 window.onload = () => {
   navigator.mediaDevices.getUserMedia(constraints)
@@ -48,7 +49,7 @@ window.onload = () => {
     alart(err.name + ": " + err.message);
   });
 
-   setInterval(shutter, interval);
+   interval_id = setInterval(shutter, interval);
 };
 
 function shutter(){
@@ -83,6 +84,7 @@ function switchCamera() {
   
 function pauseCamera() {
   if(running){
+    clearInterval(interval_id);
     video.srcObject.getVideoTracks().forEach( (camera) => {
       camera.stop();
     });
@@ -99,6 +101,7 @@ function pauseCamera() {
       alart(err.name + ": " + err.message);
     });
     running = 1;
+    interval_id = setInterval(shutter, interval);
   }
 }
 
