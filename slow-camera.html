@@ -53,7 +53,8 @@ window.onload = () => {
 };
 
 function openNewWindow(){
-  window.open(location.href,"","width=video.videoWidth, height=video.videoHeight, location=no, toolbar=no, menubar=no, status=no");
+  newwindow = window.open(location.href,"","location=no,menubar=yes,toolbar=no,status=no");
+  newwindow.resizeTo(video.videoWidth+40,video.videoHeight+120);
   window.close();
 }
 
