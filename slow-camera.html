@@ -26,13 +26,14 @@
   </form>
   <button class="btn" onclick="changeInterval()">Set</button>
   <button id="pause" class="btn" onclick="pauseCamera()">Pause Video</button>
+  <button id="live" class="btn" onclick="switchLive()">Live Monitor</button>
   <button class="btn" onclick="releaseCamera()">Release Camera</button>
   </font>
 
   <br>
 
   <canvas id="picture"></canvas>
-  <video id="camera" muted autoplay playsinline></video>
+  <video id="camera" hidden muted autoplay playsinline></video>
 
 <script>
 const constraints = {
@@ -68,6 +69,10 @@ window.onload = () => {
   iid = setInterval(capture, interval);
 };
 
+function switchLive(){
+  video.hidden = !video.hidden;
+}
+  
 function releaseCamera(){
   running = 0;
   video.srcObject.getVideoTracks().forEach( (camera) => {
