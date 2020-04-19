@@ -25,8 +25,8 @@
     Interval(msec):
     <input name="interval" class="ipt" type="number" size="8" value="1000" step="100" autofocus>
   </form>
-  <button id="submit" class="btn" onclick="changeInterval()">Set</button>
-  <button id="stop" class="btn" onclick="window.close()">Release Camera</button>
+  <button class="btn" onclick="changeInterval()">Set</button>
+  <button class="btn" onclick="releaseCamera()">Release Camera</button>
   </font>
 
   <br>
@@ -64,7 +64,7 @@ window.onload = () => {
   iid = setInterval(capture, interval);
 };
 
-function stop(){
+function releaseCamera(){
   video.srcObject.getVideoTracks().forEach( (camera) => {
     camera.stop();
   });
