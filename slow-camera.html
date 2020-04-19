@@ -26,8 +26,7 @@
     <input name="interval" class="ipt" type="number" size="8" value="1000" step="100" autofocus>
   </form>
   <button id="submit" class="btn" onclick="changeInterval()">Set</button>
-  <button id="reopen" class="btn" onclick="openNewWindow()">New Window</button>
-  <button id="close" class="btn" onclick="window.close()">Close</button>
+  <button id="stop" class="btn" onclick="window.close()">Stop Camera</button>
   </font>
 
   <br>
@@ -65,10 +64,10 @@ window.onload = () => {
   iid = setInterval(capture, interval);
 };
 
-function openNewWindow(){
-  newwindow = window.open(location.href,"","location=no,menubar=yes,toolbar=no,status=no");
-  newwindow.resizeTo(video.videoWidth+40,video.videoHeight+150);
-  window.close();
+function stop(){
+  video.srcObject.getVideoTracks().forEach( (camera) => {
+    camera.stop();
+  });
 }
 
 function changeInterval(){
