@@ -21,7 +21,7 @@
 <body>
   <h1>Slow Camera</h1>
   <font size="+1">
-  <button class="btn" onclick="switchCamera()">Switch Cam</button>
+  <button class="btn" onclick="switchCamera(1)">Switch Cam</button>
   <form name="param" style="display: inline">
     Interval(msec):
     <input name="interval" class="ipt" type="number" size="8" value="1000" step="100" autofocus>
@@ -38,7 +38,7 @@
   <video id="camera" hidden muted autoplay playsinline></video>
 
   <input id="message" type="text" size="80" disabled>
-
+</body>
 <script>
 const constraints = {
   audio: false,
@@ -58,8 +58,8 @@ var ivid = 0;
 var cix = 0;
   
 window.onload = () => {
-  switchCamera();
-  iid = setInterval(capture, interval);
+  switchCamera(0);
+  ivid = setInterval(capture, interval);
 };
 
 function switchLive(){
@@ -91,14 +91,16 @@ function capture(){
   }
 }
 
-function switchCamera() {
-  video.srcObject.getVideoTracks().forEach( (camera) => {
-    camera.stop();
-  });
-  if(constraints.video.facingMode == "user") {
-     constraints.video.facingMode = { exact: "environment" };
-  } else {
-     constraints.video.facingMode = "user";
+function switchCamera(initialized) {
+  if(initialized){
+    video.srcObject.getVideoTracks().forEach( (camera) => {
+      camera.stop();
+    });
+    if(constraints.video.facingMode == "user") {
+      constraints.video.facingMode = { exact: "environment" };
+    } else {
+      constraints.video.facingMode = "user";
+    }
   }
   navigator.mediaDevices.getUserMedia(constraints)
   .then( (stream) => {
@@ -110,7 +112,6 @@ function switchCamera() {
   .catch( (err) => {
     message.value = err.name + ": " + err.message;
   });
-  running = 1;
 }
 
 function pauseCamera() {
@@ -118,5 +119,4 @@ function pauseCamera() {
   document.getElementById("pause").style.backgroundColor = running?"LightGray":"Red";
 }
 </script>
-</body>
 </html>
