@@ -4,23 +4,26 @@
   <meta charset="UTF-8">
   <title>Slow Rate Camera</title>
   <style>
-  canvas, video {
-    border: 1px solid gray;
-  }
+    canvas, video {
+      border: 1px solid gray;
+    }
+    button.btn {
+      font-size: +2;
+    }
   </style>
 </head>
 <body>
   <h1>Slow Camera</h1>
   <font size="+2">
-  <button id="pause" onclick="pauseCamera()">Pause Video</button>
-  <button onclick="switchCamera()">Switch Camera</button>
+  <button id="pause" class="btn" onclick="pauseCamera()">Pause Video</button>
+  <button class="btn" onclick="switchCamera()">Switch Camera</button>
   <form name="param" style="display: inline">
     Interval(msec):
     <input name="interval" type="number" size="8" value="1000" step="100" autofocus>
   </form>
-  <button id="submit" onclick="changeInterval()">Set</button>
-  <button id="reopen" onclick="openNewWindow()">New Window</button>
-  <button id="close" onclick="window.close()">Close</button>
+  <button id="submit" clas="btn" onclick="changeInterval()">Set</button>
+  <button id="reopen" class="btn" onclick="openNewWindow()">New Window</button>
+  <button id="close" class="btn" onclick="window.close()">Close</button>
   </font>
 
   <br>
