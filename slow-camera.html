@@ -65,7 +65,7 @@ window.onload = () => {
 };
 
 function releaseCamera(){
-  runnung = 0;
+  running = 0;
   video.srcObject.getVideoTracks().forEach( (camera) => {
     camera.stop();
   });
