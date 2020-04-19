@@ -72,7 +72,7 @@ window.onload = () => {
 
 function switchLive(){
   video.hidden = !video.hidden;
-  document.getElementById("live").style.backgroundColor = video.hidden?"red":"white";
+  document.getElementById("live").style.backgroundColor = video.hidden?"white":"red";
 }
   
 function releaseCamera(){
@@ -121,8 +121,8 @@ function switchCamera() {
 }
 
 function pauseCamera() {
-  runnung = !runnung;
-  document.getElementById("pause").style.backgroundColor = running?"red":"white";
+  running = !running;
+  document.getElementById("pause").style.backgroundColor = running?"white":"red";
 }
 </script>
 </body>
