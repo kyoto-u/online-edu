@@ -96,10 +96,30 @@ function switchCamera(initialized) {
     video.srcObject.getVideoTracks().forEach( (camera) => {
       camera.stop();
     });
-    if(constraints.video.facingMode == "user") {
-      constraints.video.facingMode = { exact: "environment" };
+  }
+  if(navigator.mediaDevices && navigator.mediaDevices.enumerateDevices){
+    navigator.mediaDevices.enumerateDevices()
+    .then(function(sourcesInfo) {
+      var n = 0;
+      var videoSroucesArray = sourcesInfo.filter(function(elem) {
+        var v = (elem.kind == 'videoinput');
+        n += v;
+        return v;
+      });
+      message.value = (idx+1) + "/" + n + " camera selected";
+      constraints.video.deviceId = videoSroucesArray[idx++].deviceId;
+      if (idx >= n){
+        idx = 0;
+      }
+    })
+    .catch(function(err) {
+      message.value = err.name + ": " + err.message;
+    });
+  } else {
+    if(constraints.video.facingMode == { exact: "environment" }) {
+       constraints.video.facingMode = "user";
     } else {
-      constraints.video.facingMode = "user";
+       constraints.video.facingMode = { exact: "environment" };
     }
   }
   navigator.mediaDevices.getUserMedia(constraints)
