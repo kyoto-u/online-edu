@@ -9,6 +9,7 @@
     }
     button.btn {
       font-size: 20px;
+      backgroundcolor: LightGray;
       margin-right: 10px;
     }
     input.ipt {
@@ -72,14 +73,28 @@ window.onload = () => {
 
 function switchLive(){
   video.hidden = !video.hidden;
-  document.getElementById("live").style.backgroundColor = video.hidden?"gray":"red";
+  document.getElementById("live").style.backgroundColor = video.hidden?"LightGray":"Red";
 }
   
 function releaseCamera(){
+  var stopped = 0;
   running = 0;
   video.srcObject.getVideoTracks().forEach( (camera) => {
     camera.stop();
+    stopped = 1;
   });
+  if(!stopped){
+    navigator.mediaDevices.getUserMedia(constraints)
+    .then( (stream) => {
+      video.srcObject = stream;
+      video.onloadedmetadata = (e) => {
+        video.play();
+      };
+    })
+    .catch( (err) => {
+      alart(err.name + ": " + err.message);
+    });
+  }
 }
 
 function changeInterval(){
@@ -122,7 +137,7 @@ function switchCamera() {
 
 function pauseCamera() {
   running = !running;
-  document.getElementById("pause").style.backgroundColor = running?"gray":"red";
+  document.getElementById("pause").style.backgroundColor = running?"LightGray":"Red";
 }
 </script>
 </body>
