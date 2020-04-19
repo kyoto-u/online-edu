@@ -8,7 +8,10 @@
       border: 1px solid gray;
     }
     button.btn {
-      font-size: +2;
+      font-size: 50px;
+    }
+    input.ipt {
+      font-size: 50px;
     }
   </style>
 </head>
@@ -19,7 +22,7 @@
   <button class="btn" onclick="switchCamera()">Switch Camera</button>
   <form name="param" style="display: inline">
     Interval(msec):
-    <input name="interval" type="number" size="8" value="1000" step="100" autofocus>
+    <input name="interval" class="ipt" type="number" size="8" value="1000" step="100" autofocus>
   </form>
   <button id="submit" clas="btn" onclick="changeInterval()">Set</button>
   <button id="reopen" class="btn" onclick="openNewWindow()">New Window</button>
