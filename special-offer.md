@@ -46,14 +46,14 @@ MATLAB（マトラボ）は、アメリカ合衆国のMathWorks社が開発し�
   - MATLAB Portalサイトの「MATLAB と Simulink の使い方を学ぶ」から受講できます。
 - 動作環境
   - Windows, Mac, Linuxに対応
-  - 詳細はこちらから(https://jp.mathworks.com/support/requirements/matlab-system-requirements.html)
+  - [詳細はこちら](https://jp.mathworks.com/support/requirements/matlab-system-requirements.html)
 - webブラウザ
   - 最新のGoogle Chromeを推奨
-  - 詳細はこちらから(https://jp.mathworks.com/support/requirements/browser-requirements.html)
+  - [詳細はこちら](https://jp.mathworks.com/support/requirements/browser-requirements.html)
 - サポート
   - インストールサポート（MathWorksアカウント作成やインストール時のエラー等） ：学生と教職員
   - テクニカルサポート（製品操作方法などの技術的質問）：教職員のみ
   - MATLAB Portalサイトの「インストールについてご質問のある方は、MathWorks サポートまでお問い合わせください」にアクセスください。
-- MATLAB Portalサイト(https://jp.mathworks.com/academia/tah-portal/kyoto-university-31485310.html)
+- [MATLAB Portalサイト](https://jp.mathworks.com/academia/tah-portal/kyoto-university-31485310.html)
 
 (最終更新：2020年4月20日)
