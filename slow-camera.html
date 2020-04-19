@@ -108,8 +108,8 @@ function switchCamera(initialized) {
         n += v;
         return v;
       });
-      constraints.video.deviceId = { exact: videoSroucesArray[cix].deviceId };
-      message.value = (cix+1) + "/" + n + " camera selected (" + videoSroucesArray[cix].label + ")";
+      constraints.video.deviceId = videoSroucesArray[cix].deviceId;
+      message.value = (cix+1) + "/" + n + " camera selected (" + videoSroucesArray[cix].label + "," + constraints.video.deviceId + ")";
       if (++cix >= n){
         cix = 0;
       }
