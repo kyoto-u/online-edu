@@ -44,8 +44,10 @@ const constraints = {
   }
 };
 
-const video  = document.querySelector("#camera");
-const canvas = document.querySelector("#picture");
+// const video  = document.querySelector("#camera");
+// const canvas = document.querySelector("#picture");
+const video  = document.getElementById("camera");
+const canvas = document.getElementById("picture");
 
 var interval = 1000;
 var running = 1;
@@ -85,7 +87,7 @@ function capture(){
   if(running){
     canvas.width  = video.videoWidth;
     canvas.height = video.videoHeight;
-    ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+    ctx.drawImage(video, 0, 0, video.width, video.height);
   }
 }
 
