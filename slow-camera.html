@@ -9,7 +9,7 @@
     }
     button.btn {
       font-size: 20px;
-      backgroundcolor: LightGray;
+      background: LightGray;
       margin-right: 10px;
     }
     input.ipt {
@@ -77,24 +77,10 @@ function switchLive(){
 }
   
 function releaseCamera(){
-  var stopped = 0;
   running = 0;
   video.srcObject.getVideoTracks().forEach( (camera) => {
     camera.stop();
-    stopped = 1;
   });
-  if(!stopped){
-    navigator.mediaDevices.getUserMedia(constraints)
-    .then( (stream) => {
-      video.srcObject = stream;
-      video.onloadedmetadata = (e) => {
-        video.play();
-      };
-    })
-    .catch( (err) => {
-      alart(err.name + ": " + err.message);
-    });
-  }
 }
 
 function changeInterval(){
