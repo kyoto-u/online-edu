@@ -70,10 +70,10 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 [Zoomミーティングにおける妨害対策について](zoom-security-action)
 
 <a id="anch06"></a>
-## <a href="#anch06">Zoom講習会 Q&A</a>
-Zoom講習会についてのQ&Aは以下のページに掲載しています。
+## 学生向け情報
+Zoomで授業を受ける学生の方には以下のサイトをご案内ください。
 
-<a href="https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html" target="_blank">Zoom講習会 Q&A</a>
+[Zoomで授業を受けるために（学生向け情報）](zoom-student)
 
 <a id="anch07"></a>
 ## <a href="#anch07">お問い合わせ</a>
