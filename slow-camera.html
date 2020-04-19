@@ -37,6 +37,8 @@
   <canvas id="picture"></canvas>
   <video id="camera" hidden muted autoplay playsinline></video>
 
+  <br>
+
   <input id="message" type="text" size="80" disabled>
 </body>
 <script>
@@ -106,9 +108,9 @@ function switchCamera(initialized) {
         n += v;
         return v;
       });
-      message.value = (cix+1) + "/" + n + " camera selected";
-      constraints.video.deviceId = videoSroucesArray[cix++].deviceId;
-      if (cix >= n){
+      constraints.video.deviceId = videoSroucesArray[cix].deviceId;
+      message.value = (cix+1) + "/" + n + " camera selected (" + videoSroucesArray[cis].label + ")";
+      if (++cix >= n){
         cix = 0;
       }
     })
