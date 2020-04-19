@@ -106,10 +106,10 @@ function switchCamera(initialized) {
         n += v;
         return v;
       });
-      message.value = (idx+1) + "/" + n + " camera selected";
-      constraints.video.deviceId = videoSroucesArray[idx++].deviceId;
-      if (idx >= n){
-        idx = 0;
+      message.value = (cix+1) + "/" + n + " camera selected";
+      constraints.video.deviceId = videoSroucesArray[cix++].deviceId;
+      if (cix >= n){
+        cix = 0;
       }
     })
     .catch(function(err) {
