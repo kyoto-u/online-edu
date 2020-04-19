@@ -37,37 +37,29 @@
   <canvas id="picture"></canvas>
   <video id="camera" hidden muted autoplay playsinline></video>
 
+  <input id="message" type="text" size="80" disabled>
+</body>
+
 <script>
 const constraints = {
   audio: false,
   video: {
     width: 1920,
-    height: 1080,
-    facingMode: "user"
+    height: 1080
   }
 };
 
-// const video  = document.querySelector("#camera");
-// const canvas = document.querySelector("#picture");
-const video  = document.getElementById("camera");
-const canvas = document.getElementById("picture");
+const video   = document.getElementById("camera");
+const canvas  = document.getElementById("picture");
+const message = document.getElementById("message");
 
 var interval = 1000;
 var running = 1;
-var iid = 0;
+var ivid = 0;
+var cix = 0;
   
 window.onload = () => {
-  navigator.mediaDevices.getUserMedia(constraints)
-  .then( (stream) => {
-    video.srcObject = stream;
-    video.onloadedmetadata = (e) => {
-      video.play();
-    };
-  })
-  .catch( (err) => {
-    alart(err.name + ": " + err.message);
-  });
-
+  switchCamera();
   iid = setInterval(capture, interval);
 };
 
@@ -78,6 +70,7 @@ function switchLive(){
   
 function releaseCamera(){
   running = 0;
+  clearInterval(ivid);
   video.srcObject.getVideoTracks().forEach( (camera) => {
     camera.stop();
   });
@@ -85,8 +78,8 @@ function releaseCamera(){
 
 function changeInterval(){
   interval = document.param.interval.value;
-  clearInterval(iid);
-  iid = setInterval(capture, interval);
+  clearInterval(ivid);
+  ivid = setInterval(capture, interval);
 }
   
 function capture(){
@@ -116,7 +109,7 @@ function switchCamera() {
     };
   })
   .catch( (err) => {
-    alart(err.name + ": " + err.message);
+    message.value = err.name + ": " + err.message;
   });
   running = 1;
 }
@@ -126,5 +119,4 @@ function pauseCamera() {
   document.getElementById("pause").style.backgroundColor = running?"LightGray":"Red";
 }
 </script>
-</body>
 </html>
