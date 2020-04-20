@@ -82,6 +82,11 @@ Zoom以外にも、Google ハングアウト、WebEx、Panopto、Skype等を利�
 - 京大OCWで公開されている講義ビデオ（https://ocw.kyoto-u.ac.jp）
 - 附属図書館のサービスなどを使ったオンライン上の文献
 
+## 8. その他の特別提供情報
+
+自習にも活用可能なライセンス等の特別提供についての情報です
+
+- [COVID-19対応期間中のライセンス等の特別提供](special-offer)
 
 ```python
 
