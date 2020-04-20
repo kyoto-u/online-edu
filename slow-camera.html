@@ -137,9 +137,9 @@ function startCamera(){
   navigator.mediaDevices.getUserMedia(constraints)
   .then( (stream) => {
     video.srcObject = stream;
-//    video.onloadedmetadata = (e) => {
-//      video.play();
-//    };
+    video.onloadedmetadata = (e) => {
+      video.play();
+    };
   })
   .catch( (err) => {
     message.value = err.name + ": " + err.message;
