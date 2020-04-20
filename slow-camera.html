@@ -16,12 +16,20 @@
       font-size: 20px;
       width: 80px;
     }
+    select.slc {
+      font-size: 20px;
+      width: 100px;
+    }
   </style>
 </head>
 <body>
   <h1>Slow Camera</h1>
   <font size="+1">
-  <button class="btn" onclick="switchCamera(1)">Switch Cam</button>
+  <button class="btn" onclick="getCameraList()">Prove</button>
+  <select id="camera_list" class="slc" size="1">
+    <option>(camera)</option>
+  </select>
+  <button class="btn" onclick="startCamera()">Start</button>
   <form name="param" style="display: inline">
     Interval(msec):
     <input name="interval" class="ipt" type="number" size="8" value="1000" step="100" autofocus>
@@ -29,7 +37,6 @@
   <button class="btn" onclick="changeInterval()">Set</button>
   <button id="pause" class="btn" onclick="pauseCamera()">Pause</button>
   <button id="live" class="btn" onclick="switchLive()">Live Monitor</button>
-  <button class="btn" onclick="releaseCamera()">Release Cam</button>
   </font>
 
   <br>
@@ -39,106 +46,126 @@
 
   <br>
 
-  <input id="message" type="text" size="80" disabled>
+  <input id="message" type="text" size="50" value="No camera found" disabled>
 </body>
 <script>
-const constraints = {
-  audio: false,
-  video: {
-    width: 1920,
-    height: 1080
-  }
-};
 
+const camlist = document.getElementById("camera_list");
 const video   = document.getElementById("camera");
 const canvas  = document.getElementById("picture");
 const message = document.getElementById("message");
 
 var interval = 1000;
-var running = 1;
 var ivid = 0;
-var cix = 0;
-  
+var sel = -1;
+
 window.onload = () => {
-  switchCamera(0);
-  ivid = setInterval(capture, interval);
-};
+  getCameraList();
+}
+
+function getCameraList() {
+  while(camlist.lastChild) {
+    camlist.removeChild(camlist.lastChild);
+  }
+  navigator.mediaDevices.enumerateDevices()
+  .then(function(devices) {
+    devices.forEach(function(device) {
+      if (device.kind === 'videoinput') {
+        var id = device.deviceId;
+        var label = device.label || 'cam'; // label is available only for https
+        var option = document.createElement('option');
+        option.setAttribute('value', id);
+        option.innerHTML = label + '(' + id + ')';
+        camlist.appendChild(option);
+      }
+    });
+  })
+  .catch(function(err) {
+    message.value = err.name + ": " + err.message;
+  });
+  if(camlist.length > 0){
+    message.value = camlist.length + " camera(s) found";
+  }
+}
 
 function switchLive(){
   video.hidden = !video.hidden;
   document.getElementById("live").style.backgroundColor = video.hidden?"LightGray":"Red";
 }
   
-function releaseCamera(){
-  running = 0;
-  clearInterval(ivid);
-  video.srcObject.getVideoTracks().forEach( (camera) => {
-    camera.stop();
-  });
-}
-
 function changeInterval(){
   interval = document.param.interval.value;
   clearInterval(ivid);
   ivid = setInterval(capture, interval);
 }
-  
+ 
 function capture(){
   const ctx = canvas.getContext("2d");
-
-  if(running){
-    canvas.width  = video.videoWidth;
-    canvas.height = video.videoHeight;
-    ctx.drawImage(video, 0, 0, video.videoWidth, video.videoHeight);
-  }
+  canvas.width  = video.videoWidth;
+  canvas.height = video.videoHeight;
+  ctx.drawImage(video, 0, 0, video.videoWidth, video.videoHeight);
 }
 
-function switchCamera(initialized) {
-  if(initialized){
+function startCamera(){
+  if(camlist.length == 0){
+    return;
+  }
+  clearInterval(ivid);
+  ivid = 0;
+  if (sel >= 0){ // Stop video
+    video.pause();
     video.srcObject.getVideoTracks().forEach( (camera) => {
       camera.stop();
     });
+    video.srcObject = null;
   }
-  if(navigator.mediaDevices && navigator.mediaDevices.enumerateDevices){
-    navigator.mediaDevices.enumerateDevices()
-    .then(function(sourcesInfo) {
-      var n = 0;
-      var videoSroucesArray = sourcesInfo.filter(function(elem) {
-        var v = (elem.kind == 'videoinput');
-        n += v;
-        return v;
-      });
-      constraints.video.deviceId = videoSroucesArray[cix].deviceId;
-      message.value = (cix+1) + "/" + n + " camera selected (" + videoSroucesArray[cix].label + "," + constraints.video.deviceId + ")";
-      if (++cix >= n){
-        cix = 0;
-      }
-    })
-    .catch(function(err) {
-      message.value = err.name + ": " + err.message;
-    });
-  } else {
-    if(constraints.video.facingMode == "user") {
-       constraints.video.facingMode = { exact: "environment" };
-    } else {
-       constraints.video.facingMode = "user";
+  if (sel === camlist.selectedIndex){ // Stop only
+    sel = -1;
+    message.value = "Stop";
+    return;
+  }
+  sel = camlist.selectedIndex;
+  var constraints = {
+    audio: false,
+    video: { 
+      width: 1920,
+      height: 1080,
+      deviceId: camlist.options[camlist.selectedIndex].value
     }
-  }
+  };
+  // Start with another camera
   navigator.mediaDevices.getUserMedia(constraints)
   .then( (stream) => {
     video.srcObject = stream;
-    video.onloadedmetadata = (e) => {
-      video.play();
-    };
+//    video.onloadedmetadata = (e) => {
+//      video.play();
+//    };
   })
   .catch( (err) => {
     message.value = err.name + ": " + err.message;
   });
+  ivid = setInterval(capture, interval);
+  message.value = "Running";
+  resetPause();
+}
+
+function resetPause() {
+  document.getElementById("pause").style.backgroundColor = "LightGray";
 }
 
 function pauseCamera() {
-  running = !running;
-  document.getElementById("pause").style.backgroundColor = running?"LightGray":"Red";
+  if(sel<0){
+    return;
+  }
+  if(ivid){
+    clearInterval(ivid);
+    ivid = 0;
+    message.value = "Pause";
+  } else {
+    ivid = setInterval(capture, interval);
+    message.value = "Running";
+  }
+  document.getElementById("pause").style.backgroundColor = ivid?"LightGray":"Red";
 }
 </script>
 </html>
