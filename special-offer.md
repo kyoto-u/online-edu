@@ -54,7 +54,10 @@ MATLAB（マトラボ）は、アメリカ合衆国のMathWorks社が開発し�
   - インストールサポート（MathWorksアカウント作成やインストール時のエラー等） ：学生と教職員
   - テクニカルサポート（製品操作方法などの技術的質問）：教職員のみ
   - MATLAB Portalサイトの「インストールについてご質問のある方は、MathWorks サポートまでお問い合わせください」にアクセスください。
-- [MATLAB Portalサイト](https://jp.mathworks.com/academia/tah-portal/kyoto-university-31485310.html)
+- インストール方法
+  - 後述のMATLAB Portalサイトで「サインインして使い始める」から進んでください。
+- その他の情報
+  - [MATLAB Portalサイト](https://jp.mathworks.com/academia/tah-portal/kyoto-university-31485310.html)
 
 ### 注意事項
 
@@ -63,5 +66,12 @@ MATLAB（マトラボ）は、アメリカ合衆国のMathWorks社が開発し�
 - MATLAB Driveは5GBから250MBに縮小されます。
 - 無償提供の期間終了後に京都大学のMATLABユーザーグループに加入した場合でもライセンス切替のための再インストールが必要です。
 - ユーザーグループのライセンスはToolbox（拡張パッケージ）が限定されているため、切り替えても使えないToolboxがあります。
+
+### お問い合わせ
+
+ご自身の用途でどのようにMATLABを活用できるか不明な場合や、ご相談がありましたら、
+MathWorks営業担当者に直接お問い合わせください。
+
+  MathWorks Japan 文教営業部 山村 信吾 syamamur _at_ mathworks.com (atを@に書き換えてください)
   
 (最終更新：2020年4月20日)
