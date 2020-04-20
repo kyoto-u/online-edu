@@ -46,7 +46,7 @@
 
   <br>
 
-  <input id="message" type="text" size="50" value="No camera found" disabled>
+  <span id="message">No camera found></span>
 </body>
 <script>
 
@@ -81,11 +81,13 @@ function getCameraList() {
     });
   })
   .catch(function(err) {
-    message.value = err.name + ": " + err.message;
+    message.innerHTML = err.name + ": " + err.message;
   });
-  if(camlist.length > 0){
-    message.value = camlist.length + " camera(s) found";
-  }
+  setTimeout(() => {
+    if(camlist.length > 0){
+      message.innerHTML = camlist.length + " camera(s) found";
+    }
+  },200)
 }
 
 function switchLive(){
@@ -121,7 +123,7 @@ function startCamera(){
   }
   if (sel === camlist.selectedIndex){ // Stop only
     sel = -1;
-    message.value = "Stop";
+    message.innerHTML = "Stop";
     return;
   }
   sel = camlist.selectedIndex;
@@ -142,10 +144,10 @@ function startCamera(){
     };
   })
   .catch( (err) => {
-    message.value = err.name + ": " + err.message;
+    message.innerHTML = err.name + ": " + err.message;
   });
   ivid = setInterval(capture, interval);
-  message.value = "Running";
+  message.innerHTML = "Running";
   resetPause();
 }
 
@@ -160,10 +162,10 @@ function pauseCamera() {
   if(ivid){
     clearInterval(ivid);
     ivid = 0;
-    message.value = "Pause";
+    message.innerHTML = "Pause";
   } else {
     ivid = setInterval(capture, interval);
-    message.value = "Running";
+    message.innerHTML = "Running";
   }
   document.getElementById("pause").style.backgroundColor = ivid?"LightGray":"Red";
 }
