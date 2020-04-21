@@ -12,12 +12,12 @@ Kalturaでてきること
 - Webカメラを利用して動画を作成する
 
 PandA映像教材支援ツール「Kaltura」利用マニュアル（情報環境機構）  
-http://www.iimc.kyoto-u.ac.jp/services/lms/20190722Kaltura_manual_rev.pdf
+<a href="http://www.iimc.kyoto-u.ac.jp/services/lms/20190722Kaltura_manual_rev.pdf" target="_blank">http://www.iimc.kyoto-u.ac.jp/services/lms/20190722Kaltura_manual_rev.pdf</a>
 
 ※以下のページ番号は、上記マニュアルの該当ページです。
 
 ## Kalturaの利用について
-Kalturaの利用にあたっては、以下のページにある「Kaltura による動画利用【教職員の方へ】」をご覧下さい。
+Kalturaの利用にあたっては、以下のページにある「Kaltura による動画利用【教職員の方へ】」をご覧下さい。  
 <a href="http://www.iimc.kyoto-u.ac.jp/ja/services/lms/" target="_blank">http://www.iimc.kyoto-u.ac.jp/ja/services/lms/</a>
 
 ## 初期設定 (p.4-)
