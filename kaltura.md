@@ -17,17 +17,8 @@ http://www.iimc.kyoto-u.ac.jp/services/lms/20190722Kaltura_manual_rev.pdf
 ※以下のページ番号は、上記マニュアルの該当ページです。
 
 ## Kalturaの利用について
-利用する場合は、情報環境機構にメールにて申請が必要です（p.3）。
-
-> 申請に必要な事項
-> - メールの件名「Kaltura 利用希望（PandA）」
-> - 利用者（動画を管理する方）の氏名
-> - 利用者の SPS-ID または ECS-ID
-> - ご利用希望のコースサイト・プロジェクトサイト名
-> 
-> 送付先：
-> 京都大学情報環境機構情報支援センター
-> E-MAIL：support@iimc.kyoto-u.ac.jp
+Kalturaの利用にあたっては、以下のページにある「Kaltura による動画利用【教職員の方へ】」をご覧下さい。
+<a href="http://www.iimc.kyoto-u.ac.jp/ja/services/lms/" target="_blank">http://www.iimc.kyoto-u.ac.jp/ja/services/lms/</a>
 
 ## 初期設定 (p.4-)
 PandAの「マイワークスペース」に「マイメディア」が表示される
