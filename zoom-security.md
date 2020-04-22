@@ -97,9 +97,15 @@ Zoomに限らず、システム設計上E2E暗号化が実現されていない�
 
 クラウドレコーディング機能を利用する場合は、暗号化されていない状態（設定で許可すれば誰もが閲覧可能となる状態）でミーティングの記録がクラウド上に保存されることになりますので、そのことに配慮してミーティングの中で扱う内容に注意をして頂くようお願い致します。
 
-**なお、4月18日よりZoomにおいて利用するクラウドの範囲を調整することが可能となるという連絡がきています。現時点でまだ詳細は不明ですが、東京にもZoomのクラウドが設置されているため、主として東京のクラウドを利用するように調整する予定です。**
+**なお、4月18日よりZoomにおいて利用するクラウドの範囲（地域）を指定することが可能となっています。ZoomのWebサイトにログインして「設定」メニューの「ミーティングにて（詳細）」の中にある「Select data center regions for meetings/webinars hosted by your account」の項目で設定を行ってください。USは、契約の経緯により除外できないようです。**
 
 高機密性情報を扱う会議等の利用においては、信頼性のあるファイル共有サービス等の併用、あるいは代替となる信頼性のあるビデオ会議サービスの利用なども選択肢に入れることが妥当と考えられます。最終的にはミーティングの目的・形態・内容に応じて判断すべきところですが、判断に迷う場合については、情報環境機構情報環境支援センター（オンライン化支援窓口）online_support _at_ mail2.adm.kyoto-u.ac.jp までご相談ください（ _at_ を@記号に変換ください）。
+
+ビデオ会議システムのE2E暗号化に関する参考情報
+
+- [Rethinking Zoom? How WebEx, Teams, and Google Meet and Duo Compare on Privacy and Security](https://www.inc.com/adam-levin/zoom-webex-microsoft-teams-google-hangouts-meet-duo-security-privacy.html)
+- WebEX [エンドツーエンドの暗号化が行うことは?](https://help.webex.com/ja-jp/WBX44739/What-Does-End-to-End-Encryption-Do)
+- [グループFaceTimeのつかいどころ](https://news.mynavi.jp/article/20180619-matsumura_apple/)
 
 #### 3) ビデオ会議システムの利用方法に関する問題
 
