@@ -101,7 +101,7 @@ Zoomに限らず、システム設計上E2E暗号化が実現されていない�
 
 高機密性情報を扱う会議等の利用においては、信頼性のあるファイル共有サービス等の併用、あるいは代替となる信頼性のあるビデオ会議サービスの利用なども選択肢に入れることが妥当と考えられます。最終的にはミーティングの目的・形態・内容に応じて判断すべきところですが、判断に迷う場合については、情報環境機構情報環境支援センター（オンライン化支援窓口）online_support _at_ mail2.adm.kyoto-u.ac.jp までご相談ください（ _at_ を@記号に変換ください）。
 
-ビデオ会議システムのE2E暗号化に関する参考情報
+##### ビデオ会議システムのE2E暗号化に関する参考情報
 
 - [Rethinking Zoom? How WebEx, Teams, and Google Meet and Duo Compare on Privacy and Security](https://www.inc.com/adam-levin/zoom-webex-microsoft-teams-google-hangouts-meet-duo-security-privacy.html)
 - WebEX [エンドツーエンドの暗号化が行うことは?](https://help.webex.com/ja-jp/WBX44739/What-Does-End-to-End-Encryption-Do)
