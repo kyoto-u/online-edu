@@ -18,8 +18,8 @@
 Zoomでは、ミーティングルームに参加する方法として、Windows/Macの場合には次の3種類の方法が提供されています。
 これらを組み合わせることにより、1台の端末で同時に複数のミーティングルームに接続することができます。
 
-1. Zoom Nativeアプリ - 1接続のみ
-2. Zoom Chromeアプリ - 1接続のみ
+1. Zoom Nativeアプリ - 1接続のみ [ミーティング用Zoomクライアント](https://zoom.us/download)
+2. Zoom Chromeアプリ - 1接続のみ [chrome ウェブストアから入手](https://chrome.google.com/webstore/detail/zoom/hmbjbjdpkobdjplfobhljndfdfdipjhg?hl=ja)
 3. Zoom Webブラウザ接続 (Chromeなど） - 同時複数接続可能、要ログイン
 
 3は、それ自体で複数のウィンドウやタブを用いて同時に複数のミーティングルームに接続することが可能なので、必ずしも1や2と併用する必要はありません。
