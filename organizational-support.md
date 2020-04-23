@@ -16,6 +16,8 @@ COVID-19感染拡大対策として、情報通信技術を活用した授業の
     - [PandA](http://www.iimc.kyoto-u.ac.jp/ja/services/lms/)
   - キャンパスネットワーク(KUINS)の提供
     - [KUINS、KUINS-Air、VPN](https://www.iimc.kyoto-u.ac.jp/ja/services/kuins/)
+  - セキュリティ情報の提供
+    - [セキュリティ情報](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/security/index.html)
 - [京都大学国際高等教育院](https://www.z.k.kyoto-u.ac.jp/)
   - 全学共通科目についての対応方針の検討
 - [高等教育研究開発推進センター](https://www.highedu.kyoto-u.ac.jp/)
@@ -54,8 +56,7 @@ COVID-19対策としての授業のオンライン化に関するお問い合わ
   - ファイル管理(ルート) - 文書共有 - 企画・情報部 - 04情報サービス - 03_新型コロナウイルス関係文書等
 - 機構ホームページ
   - [お知らせ](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/information/)
-  - [オンライン講義、オンライン会議、在宅勤務に関するセキュリティ対策について]http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/security/index.html
-  - [セキュリティ情報](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/security/index.html)
+  - [オンライン講義、オンライン会議、在宅勤務に関するセキュリティ対策について](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/security/index.html)
 - [Zoom全学ライセンスポータル](https://kyoto-u.github.io/online-edu/zoom)
 
 （最終更新: 2020年4月23日）
