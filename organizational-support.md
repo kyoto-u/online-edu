@@ -14,8 +14,10 @@ COVID-19感染拡大対策として、情報通信技術を活用した授業の
 - [情報環境機構](http://www.iimc.kyoto-u.ac.jp/)
   - Zoomなどのビデオ会議システムの提供
     - [Zoom全学ライセンスポータル](https://kyoto-u.github.io/online-edu/zoom)
+      - [講習会Q&A](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html)
   - PandAなど学習支援サービスの提供
     - [PandA](http://www.iimc.kyoto-u.ac.jp/ja/services/lms/)
+      - [FAQ](http://www.iimc.kyoto-u.ac.jp/ja/faq/lms/)
   - キャンパスネットワーク(KUINS)の提供
     - [KUINS、KUINS-Air、VPN](https://www.iimc.kyoto-u.ac.jp/ja/services/kuins/)
   - セキュリティ情報の提供
