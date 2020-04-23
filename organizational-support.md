@@ -9,6 +9,8 @@ COVID-19感染拡大対策として、情報通信技術を活用した授業の
 
 これら各部局は、授業のオンライン化に向けて連携しながら効果的に準備を支援する体制をとっています。
 
+### 支援部局
+
 - [情報環境機構](http://www.iimc.kyoto-u.ac.jp/)
   - Zoomなどのビデオ会議システムの提供
     - [Zoom全学ライセンスポータル](https://kyoto-u.github.io/online-edu/zoom)
@@ -18,15 +20,18 @@ COVID-19感染拡大対策として、情報通信技術を活用した授業の
     - [KUINS、KUINS-Air、VPN](https://www.iimc.kyoto-u.ac.jp/ja/services/kuins/)
   - セキュリティ情報の提供
     - [セキュリティ情報](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/security/index.html)
-- [京都大学国際高等教育院](https://www.z.k.kyoto-u.ac.jp/)
-  - 全学共通科目についての対応方針の検討
-  - KULASIS、PandAなどの情報環境の利活用
 - [高等教育研究開発推進センター](https://www.highedu.kyoto-u.ac.jp/)
   - オンライン授業の実施方法（ツール活用や教授法）や著作権の扱いについてのアドバイス、コンテンツの提供など
     - [Teaching Online](https://www.highedu.kyoto-u.ac.jp/connect/teachingonline/)
 - 教育推進・学生支援部教育情報推進室
   - KULASIS（京都大学教務情報システム）の運用
     - [KULASIS](https://www.z.k.kyoto-u.ac.jp/freshman-guide/kulasis)
+
+### 実施部局
+
+- [京都大学国際高等教育院](https://www.z.k.kyoto-u.ac.jp/)
+  - 全学共通科目についての対応方針の検討
+  - KULASIS、PandAなどの情報環境の利活用
 - 学部・大学院において教育を実施する各部局
   - 部局担当授業についての対応方針の検討
   - KULASIS、PandAなどの情報環境の利活用
