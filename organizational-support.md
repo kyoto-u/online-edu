@@ -17,7 +17,7 @@ COVID-19感染拡大対策として、情報通信技術を活用した授業の
       - [講習会Q&A](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html)
   - PandAなど学習支援サービスの提供
     - [PandA](http://www.iimc.kyoto-u.ac.jp/ja/services/lms/)
-      - [FAQ](http://www.iimc.kyoto-u.ac.jp/ja/faq/lms/)
+      - [FAQ](http://www.iimc.kyoto-u.ac.jp/ja/faq/lms/panda/)
   - キャンパスネットワーク(KUINS)の提供
     - [KUINS、KUINS-Air、VPN](https://www.iimc.kyoto-u.ac.jp/ja/services/kuins/)
   - セキュリティ情報の提供
@@ -55,7 +55,9 @@ COVID-19感染拡大対策として、情報通信技術を活用した授業の
 
 ### 連絡・問い合わせ先
 
-COVID-19対策としての授業のオンライン化に関するお問い合わせ、ご相談については情報環境支援センターまでお願いします。
+#### 情報環境機構
+
+COVID-19対策授業のオンライン化における情報環境機構提供サービスに関するお問い合わせ、ご相談については情報環境支援センターまでお願いします。
 
 メールアドレス: online_support _at_ mail2.adm.kyoto-u.ac.jp (atを@に書き換えてください）
 
@@ -65,7 +67,8 @@ COVID-19対策としての授業のオンライン化に関するお問い合わ
   - ファイル管理(ルート) - 文書共有 - 企画・情報部 - 04情報サービス - 03_新型コロナウイルス関係文書等
 - 機構ホームページ
   - [お知らせ](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/information/)
+  - [サービス一覧](http://www.iimc.kyoto-u.ac.jp/ja/services/)
   - [オンライン講義、オンライン会議、在宅勤務に関するセキュリティ対策について](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/security/index.html)
 - [Zoom全学ライセンスポータル](https://kyoto-u.github.io/online-edu/zoom)
 
-（最終更新: 2020年4月23日）
+（最終更新: 2020年4月27日）
