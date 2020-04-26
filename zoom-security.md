@@ -9,6 +9,7 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 
 ## 最新の状況
 
+- Zoomの偽ダウンロードサイトにご注意ください [関連記事](https://www.itmedia.co.jp/news/articles/2004/24/news115.html)
 - **Zoomで350以上のアカウントのパスワードが流出しているというニュースが出ています。他のSNSなどとパスワードを使いまわしているものが該当しているのではないかと推測しますが、京都大学においても、全学アカウント連携（Google）の認証を利用せずにZoomに直接パスワードを登録したことがある方は、そのパスワードで引き続きログインできる状態になっていますので、パスワードはZoomサイトに残り続けます。必ず、パスワードの使いまわしになっていないかを確認し、使いまわしになっている場合は同じパスワードを利用しているサイトを含めたパスワードの変更などの対処を至急お願いいたします。**
  (https://www.securitynewspaper.com/2020/04/08/hackers-leak-zoom-accounts-usernames-passwords-full-names-and-email-addresses/)
 - Zoomクライアントアプリにアップデート(April 7, 2020, [Windows: Version 4.6.10 (20033.0407)](https://support.zoom.us/hc/en-us/articles/201361953-New-Updates-for-Windows), [Mac: Version 4.6.10 (20041.0408)](https://support.zoom.us/hc/en-us/articles/201361963-New-Updates-for-macOS))が出ています。セキュリティ上の使い勝手の改善(セキュリティボタンの追加)などが行われていますので適用をお願いします (4/9)
@@ -128,4 +129,4 @@ Zoomに限らず、システム設計上E2E暗号化が実現されていない�
 
 また、居場所を伏せているような場合には、背景の音から場所が特定されてしまうことがあることにも注意が必要です。
 
-(最終更新：2020年4月23日)
+(最終更新：2020年4月25日)
