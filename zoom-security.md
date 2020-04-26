@@ -114,6 +114,7 @@ Zoomに限らず、システム設計上E2E暗号化が実現されていない�
 - [Rethinking Zoom? How WebEx, Teams, and Google Meet and Duo Compare on Privacy and Security](https://www.inc.com/adam-levin/zoom-webex-microsoft-teams-google-hangouts-meet-duo-security-privacy.html)
 - WebEX [エンドツーエンドの暗号化が行うことは?](https://help.webex.com/ja-jp/WBX44739/What-Does-End-to-End-Encryption-Do)
 - [グループFaceTimeのつかいどころ](https://news.mynavi.jp/article/20180619-matsumura_apple/)
+- [Webex Teams](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/esp/Webex-Teams-Security-Frequently-Asked-Questions.pdf)
 
 #### 3) ビデオ会議システムの利用方法に関する問題
 
