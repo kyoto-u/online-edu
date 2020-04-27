@@ -58,6 +58,7 @@ MATLAB（マトラボ）は、アメリカ合衆国のMathWorks社が開発し�
   - 後述のMATLAB Portalサイトで「サインインして使い始める」から進んでください。
 - その他の情報
   - [MATLAB Portalサイト](https://jp.mathworks.com/academia/tah-portal/kyoto-university-31485310.html)
+  - [MATLABキャンパスライセンス（無償提供版）の概要資料](https://kubar.rd.iimc.kyoto-u.ac.jp/covid-19/MATLAB_COVID-19_SpecialOffer_Announce.pdf)
 
 ### 注意事項
 
@@ -66,10 +67,6 @@ MATLAB（マトラボ）は、アメリカ合衆国のMathWorks社が開発し�
 - MATLAB Driveは5GBから250MBに縮小されます。
 - 無償提供の期間終了後に京都大学のMATLABユーザーグループに加入した場合でもライセンス切替のための再インストールが必要です。
 - ユーザーグループのライセンスはToolbox（拡張パッケージ）が限定されているため、切り替えても使えないToolboxがあります。
-
-### アナウンス
-
-[MATLABキャンパスライセンス（無償提供版）の概要資料](https://kubar.rd.iimc.kyoto-u.ac.jp/covid-19/MATLAB_COVID-19_SpecialOffer_Announce.pdf)
 
 ### お問い合わせ
 
