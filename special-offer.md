@@ -67,6 +67,10 @@ MATLAB（マトラボ）は、アメリカ合衆国のMathWorks社が開発し�
 - 無償提供の期間終了後に京都大学のMATLABユーザーグループに加入した場合でもライセンス切替のための再インストールが必要です。
 - ユーザーグループのライセンスはToolbox（拡張パッケージ）が限定されているため、切り替えても使えないToolboxがあります。
 
+### アナウンス
+
+[MATLABキャンパスライセンス（無償提供版）の概要資料](https://kubar.rd.iimc.kyoto-u.ac.jp/covid-19/MATLAB_COVID-19_SpecialOffer_Announce.pdf)
+
 ### お問い合わせ
 
 ご自身の用途でどのようにMATLABを活用できるか不明な場合や、ご相談がありましたら、
@@ -74,4 +78,4 @@ MathWorks営業担当者に直接お問い合わせください。
 
   MathWorks Japan 文教営業部 山村 信吾 syamamur _at_ mathworks.com (atを@に書き換えてください)
   
-(最終更新：2020年4月20日)
+(最終更新：2020年4月27日)
