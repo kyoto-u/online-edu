@@ -22,6 +22,7 @@ COVID-19感染拡大対策として、情報通信技術を活用した授業の
     - [KUINS、KUINS-Air、VPN](https://www.iimc.kyoto-u.ac.jp/ja/services/kuins/)
   - セキュリティ情報の提供
     - [セキュリティ情報](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/security/index.html)
+   - [サービス一覧](http://www.iimc.kyoto-u.ac.jp/ja/services/)
 - [高等教育研究開発推進センター](https://www.highedu.kyoto-u.ac.jp/)
   - オンライン授業の実施方法（ツール活用や教授法）や著作権の扱いについてのアドバイス、コンテンツの提供など
     - [Teaching Online＠京大](https://www.highedu.kyoto-u.ac.jp/connect/teachingonline/)
@@ -73,7 +74,6 @@ COVID-19感染拡大対策として、情報通信技術を活用した授業の
   - ファイル管理(ルート) - 文書共有 - 企画・情報部 - 04情報サービス - 03_新型コロナウイルス関係文書等
 - 機構ホームページ
   - [お知らせ](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/information/)
-  - [サービス一覧](http://www.iimc.kyoto-u.ac.jp/ja/services/)
   - [オンライン講義、オンライン会議、在宅勤務に関するセキュリティ対策について](http://www.iimc.kyoto-u.ac.jp/ja/whatsnew/security/index.html)
 - [Zoom全学ライセンスポータル](https://kyoto-u.github.io/online-edu/zoom)
 
