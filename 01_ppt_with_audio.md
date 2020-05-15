@@ -137,8 +137,7 @@ Windows 10 の標準アプリの1つ「ボイスレコーダー」を使うと�
 - 「ファイル」メニューから「保存」を選択し、動画に名前をつけて保存する
   - 音声ファイルはm4a形式で保存されます
 
-参考：[QuickTime Player を使う方法（Apple）](https://support.apple.com/ja-jp/HT201066)<br>
-https://support.apple.com/ja-jp/HT201066
+参考：[QuickTime Player を使う方法（Apple）](https://support.apple.com/ja-jp/HT201066)
 
 ### その他の方法
 - 市販のボイスレコーダーで録音した音声ファイルを使う方法もあります。
