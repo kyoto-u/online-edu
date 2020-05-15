@@ -9,11 +9,9 @@ title: {{ site.name }}
 ## 京都大学の学習支援システム（PandA）とビデオ会議サービスのZoomを用いた授業のオンライン配信について
 
 - PandAでは、京都大学教職員および非常勤講師、正規に雇用されたTAが京大ライセンスのZoomを使用することができます
-  - Zoomのサイトライセンスの申請はこちらをご覧下さい。
-https://kyoto-u.github.io/online-edu/zoom#anch04
+  - Zoomのサイトライセンスの申請は[こちら](https://kyoto-u.github.io/online-edu/zoom#anch04)をご覧下さい。
 
-- ZoomをPandAのコースサイト内に設置することができます。設置方法については情報環境機構の「学習支援サービス(PandA)」のページにある利用マニュアルをご覧下さい。
-https://www.iimc.kyoto-u.ac.jp/ja/services/lms/
+- ZoomをPandAのコースサイト内に設置することができます。設置方法については情報環境機構の「学習支援サービス(PandA)」のページにある[利用マニュアル](https://www.iimc.kyoto-u.ac.jp/ja/services/lms/)をご覧下さい。
 - PandAを経由せず、Zoomを直接利用することもできる
   - Zoom の[サインイン](https://zoom.us/signin)から「Googleでサインイン」を選択
   - 全学メールアドレスをGoogleアカウントとして入力/選択すると、総合認証を経て、サインイン完了
