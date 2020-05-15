@@ -6,12 +6,10 @@ title: {{ site.name }}
 
 教室や研究室等で、教員が黒板やホワイトボードに板書をしたりPPT等のスライドを提示しながら授業を進行し、それをビデオカメラで撮影した映像をリアルタイムでZoomで配信する方法です。
 
-注1：Zoomの利用については、以下のページにマニュアルや講習会資料・録画映像へのリンクをご参照下さい。
-[https://kyoto-u.github.io/online-edu/zoom#anch03](https://kyoto-u.github.io/online-edu/zoom#anch03)
+注1：Zoomの利用については、[マニュアルや講習会資料・録画映像へのリンク](https://kyoto-u.github.io/online-edu/zoom#anch03)をご参照下さい。
 
 注2：ビデオ映像を配信する際は、通信量にご注意下さい。
-（参考）遠隔授業心得：データダイエット（国立情報学研究所作成）
-[https://www.nii.ac.jp/event/upload/datadiet.png](https://www.nii.ac.jp/event/upload/datadiet.png)
+（参考）[遠隔授業心得：データダイエット](https://www.nii.ac.jp/event/upload/datadiet.png](https://www.nii.ac.jp/event/upload/datadiet.png)（国立情報学研究所作成）
 
 ## 板書をおこなう場合
 
@@ -28,7 +26,7 @@ title: {{ site.name }}
   - 有線のマイクやBluetooth等の無線マイクをパソコンに接続する方法があります。前者は長めのケーブルを用意する必要があります。
   - パソコンに接続したスピーカフォンのマイクを利用する場合、講師との距離が離れると音声をうまく拾うことができなくなります。
   - PA設備等から音声出力が得られる場合、パソコンに直接入力できるかも検討して下さい。
-    - Zoom講習会Q&A「音声について」（https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html#anchor09）をご参照下さい。
+    - Zoom講習会Q&A「[音声について](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html#anchor09)」をご参照下さい。
 
 ## PPT等のスライドを提示する場合
 
