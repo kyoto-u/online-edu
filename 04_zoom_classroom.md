@@ -7,11 +7,11 @@ title: {{ site.name }}
 教室や研究室等で、教員が黒板やホワイトボードに板書をしたりPPT等のスライドを提示しながら授業を進行し、それをビデオカメラで撮影した映像をリアルタイムでZoomで配信する方法です。
 
 注1：Zoomの利用については、以下のページにマニュアルや講習会資料・録画映像へのリンクをご参照下さい。
-https://kyoto-u.github.io/online-edu/zoom#anch03
+[https://kyoto-u.github.io/online-edu/zoom#anch03](https://kyoto-u.github.io/online-edu/zoom#anch03)
 
 注2：ビデオ映像を配信する際は、通信量にご注意下さい。
 （参考）遠隔授業心得：データダイエット（国立情報学研究所作成）
-https://www.nii.ac.jp/event/upload/datadiet.png
+[https://www.nii.ac.jp/event/upload/datadiet.png](https://www.nii.ac.jp/event/upload/datadiet.png)
 
 ## 板書をおこなう場合
 
