@@ -38,11 +38,8 @@ title: {{ site.name }}
 ### [その他](e_others)
 - その他、オンライン授業で利用できるツールや環境について紹介します。
 
-注1：Zoomの利用については、以下のページからリンクされたマニュアルや講習会資料・録画映像をご参照下さい。
-https://kyoto-u.github.io/online-edu/zoom#anch03
+注1：Zoomの利用については、[マニュアルや講習会資料・録画映像](https://kyoto-u.github.io/online-edu/zoom#anch03)をご参照下さい。
 
 注2：ビデオ映像を配信する際は、通信量にご注意下さい。
-（参考）遠隔授業心得：データダイエット（国立情報学研究所作成）
-https://www.nii.ac.jp/event/upload/datadiet.png
-
+（参考）[遠隔授業心得：データダイエット](https://www.nii.ac.jp/event/upload/datadiet.png)（国立情報学研究所作成）
 
