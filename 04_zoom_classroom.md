@@ -8,7 +8,7 @@ title: {{ site.name }}
 
 注1：Zoomの利用については、[マニュアルや講習会資料・録画映像へのリンク](https://kyoto-u.github.io/online-edu/zoom#anch03)をご参照下さい。
 
-注2：ビデオ映像を配信する際は、通信量にご注意下さい。
+注2：ビデオ映像を配信する際は、通信量にご注意下さい。<br>
 （参考）[遠隔授業心得：データダイエット](https://www.nii.ac.jp/event/upload/datadiet.png)（国立情報学研究所作成）
 
 ## 板書をおこなう場合
