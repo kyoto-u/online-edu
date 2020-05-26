@@ -85,6 +85,8 @@ Zoomで授業を受ける学生の方には以下のサイトをご案内くだ�
 
 [Zoom講習会Q&A](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html)
 
+[複数端末を利用する場合の注意](zoom-audio-echo)
+
 <a id="anch07"></a>
 ## <a href="#anch08">お問い合わせ</a>
 
