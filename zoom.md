@@ -4,7 +4,7 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 ---
 
 # Zoom全学ライセンス ポータル
-(English information will appear soon)
+[English information](zoom_en)
 
 <a id="index"></a>
 ### <a href="#index">目次</a>
