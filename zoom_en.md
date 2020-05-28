@@ -6,6 +6,12 @@ title:
 # Zoom KU Lisence Portal 
 [Japanese information](zoom)
 
+<a id="anch00"></a>
+## <a href="#anch00">Headline: Termination of an Earlier Version of Zoom App (May 30)</a>
+The Zoom service releases the 5.0 version of the app for security
+purposes. Applications equal to or less than version 4 will not be
+available on after May 30. Please see [the news on IIMC](http://www.iimc.kyoto-u.ac.jp/en/whatsnew/information/detail/200528056163.html) to know the method of checking the version and update.
+
 <a id="anch01"></a>
 ## <a href="#anch01">Overview of online meeting service: Zoom Kyoto University License</a>
 Kyoto University has made a contract with Zoom Video Communications, Inc. The staff and faculty members of Kyoto University are eligible for the Zoom Kyoto University License. If you register for Zoom Site License (Zoom Kyoto University License), you can use the Zoom meeting room linked to the lessons from each course site on the Learning Support System: PandA. In addition, you can sign in to the Zoom service directly and hold online meetings without using PandA.
