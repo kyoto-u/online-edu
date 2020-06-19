@@ -14,10 +14,7 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 - Zoomの偽ダウンロードサイトにご注意ください ([関連記事](https://www.itmedia.co.jp/news/articles/2004/24/news115.html))
 - **Zoomで350以上のアカウントのパスワードが流出しているというニュースが出ています。他のSNSなどとパスワードを使いまわしているものが該当しているのではないかと推測しますが、京都大学においても、全学アカウント連携（Google）の認証を利用せずにZoomに直接パスワードを登録したことがある方は、そのパスワードで引き続きログインできる状態になっていますので、パスワードはZoomサイトに残り続けます。必ず、パスワードの使いまわしになっていないかを確認し、使いまわしになっている場合は同じパスワードを利用しているサイトを含めたパスワードの変更などの対処を至急お願いいたします。**
  (https://www.securitynewspaper.com/2020/04/08/hackers-leak-zoom-accounts-usernames-passwords-full-names-and-email-addresses/)
-- Zoomクライアントアプリにアップデート(April 7, 2020, [Windows: Version 4.6.10 (20033.0407)](https://support.zoom.us/hc/en-us/articles/201361953-New-Updates-for-Windows), [Mac: Version 4.6.10 (20041.0408)](https://support.zoom.us/hc/en-us/articles/201361963-New-Updates-for-macOS))が出ています。セキュリティ上の使い勝手の改善(セキュリティボタンの追加)などが行われていますので適用をお願いします (4/9)
-- Zoomクライアントアプリにアップデート(April 2, 2020, Windows: Version 4.6.9 (19253.0401), Mac: Version 4.6.9 (19273.0402))が出ています。UNC Path問題への対処となるため、**至急適用してください** (4/3) [参考情報](https://www.ipa.go.jp/security/ciadr/vul/alert20200403.html)
 - 全学ライセンス下のユーザーについても、今後ミーティングパスワードの設定が必須となります。これによりいわゆるZoom Bombing問題のリスクが低減されますが、ミーティングの周知方法を再度確認してください (4/6)
-
 
 
 ## セキュリティ＆プライバシーに関する考え方
