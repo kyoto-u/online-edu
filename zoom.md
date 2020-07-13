@@ -91,8 +91,7 @@ Zoomで授業を受ける学生の方には以下のサイトをご案内くだ�
 
 [対面とオンラインの同時併用授業の実施方法と必要設備について](zoom-hybrid-use)
 
-[Zoom講習会Q&A](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html)
-- 講習会後のZooomに関する様々な質問についても情報を追記しています。
+[Zoom講習会Q&A](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html) （講習会後に頂いたZooomに関する様々な質問についても情報を追記しています。）
 
 <a id="anch09"></a>
 ## <a href="#anch09">お問い合わせ</a>
