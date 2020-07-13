@@ -2,6 +2,7 @@
 layout: default
 title: 複数端末を利用する場合の注意（エコーを起こさないために） 
 ---
+上位ページ: [Zoom全学ライセンス ポータル](https://kyoto-u.github.io/online-edu/zoom)
 
 # 複数端末を利用する場合の注意（エコーを起こさないために）
 
