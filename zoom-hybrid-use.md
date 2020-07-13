@@ -2,6 +2,7 @@
 layout: default
 title: 対面とオンラインの同時併用授業の実施方法と必要設備について 
 ---
+上位ページ: [Zoom全学ライセンス ポータル](https://kyoto-u.github.io/online-edu/zoom)
 
 # 対面とオンラインの同時併用授業の実施方法と必要設備について
 
