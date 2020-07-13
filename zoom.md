@@ -84,14 +84,16 @@ Zoomで授業を受ける学生の方には以下のサイトをご案内くだ�
 
 [Zoomで授業を受けるために（学生向け情報）](zoom-student)
 
-<a id="anch08"></a>
+<a id="anch07"></a>
 ## Zoom講習会Q&A
 
 [Zoom講習会Q&A](https://kubar.rd.iimc.kyoto-u.ac.jp/zoom/qa.html)
 
 [複数端末を利用する場合の注意（エコーを起こさないために）](zoom-audio-echo)
 
-<a id="anch07"></a>
+[対面とオンラインの同時併用授業の実施方法と必要設備について](zoom-hybrid-use)
+
+<a id="anch08"></a>
 ## <a href="#anch08">お問い合わせ</a>
 
 Zoom全学ライセンスについてのお問い合わせは、 online_support _at_ mail2.adm.kyoto-u.ac.jp までお願いいたします(メールアドレスの _at_ を@に変えて下さい)。 
