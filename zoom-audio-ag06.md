@@ -21,4 +21,6 @@ title: 室内音響設備をYamaha AG06経由でPCに接続する
 - AG06のUSBケーブルをPCに接続
 - PCのオーディオ設定（Zoom等）で、入出力をAG06に設定
 
+![接続図](ag06-config.png)
+
 Last modified: 2020/7/23
