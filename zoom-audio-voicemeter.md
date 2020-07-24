@@ -21,10 +21,14 @@ Voicemeter Bananaは3つまでの入力・出力を扱うことができるが�
 
 次に、HARDWARE INPUT 1/2/3のそれぞれのセクションで、フェーダ（上下に操作して音量を調整するスライドボリューム）の右横にあるボタンで**「>B1」**のみを選択（それ以外はOFFにする）。
 
+利用する複数のマイクの間での音量バランスの調整は、HARDWARE INPUT 1/2/3それぞれのフェーダを利用する。
+
 ### 補足
 
 MME (windows MultiMedia Extensions)はWDM (Windows Driver Model)より古いインタフェース規格であり、遅延（音の遅れ）が少し大きい。どちらも選択できる場合はWDMを選択する方が良いが、利用する複数音機器で統一した方が良いと思われる。
 また、WDMは排他制御を行うため、他のアプリで利用中の機器を選択できないことがある。
+
+![VoiceMeterの入力設定](voicemeter-config-in.png)
 
 ## 出力（スピーカ）の選択
 
@@ -32,10 +36,14 @@ MME (windows MultiMedia Extensions)はWDM (Windows Driver Model)より古いイ�
 - A2: **WDM: Yamaha PJP-20UR**
 - A3: **- remove device section -** （必要に応じて3つめの機器を指定する）
 
+利用する複数のスピーカの間での音量バランスの調整は、A1/A2/A3それぞれのフェーダを利用する。
+
 ## PC音声の出力先の選択
 
 VIRTUAL INPUTSのセクションでは、2つのバーチャルオーディオデバイスについて設定可能になっているが、ここでは左側の「Voicemeter VAIO」を利用する。
 フェーダの右横にあるボタンで**「>A1」「>A2」「>A3」**を選択（それ以外はOFFにする）。
+
+![VoiceMeterの出力設定](voicemeter-config-out.png)
 
 ## Zoomのオーディオ設定
 
@@ -50,6 +58,8 @@ Voicemeter Bananaをインストールすると、以下の仮想デバイスが
 
 - スピーカの機器として**「VoiceMeter Input」**を選択する
 - マイクの機器として**「VoiceMeter Output」**を選択する
+
+![Zoomのオーディオ設定](zoom-config-voicemeter.png)
 
 ### Zoomでの設定テスト
 
