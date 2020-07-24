@@ -116,7 +116,8 @@ title: 対面とオンラインの同時併用授業の実施方法と必要設�
 ソフトウェアで実現された仮想ミキサーをパソコンにインストールし、マイクの音を一旦仮想ミキサーに経由させるように設定することで、パソコンに個別に接続された複数のマイクの声を混合してからビデオ会議システム端末に送り込むことができる。
 
 仮想ミキサーの例（あくまでも例です）：
-- Windows: VB-CABLE + Voicemeeter ([https://www.vb-audio.com/](https://www.vb-audio.com/))
+- Windows: Voicemeeter ([https://www.vb-audio.com/](https://www.vb-audio.com/))
+  - [バーチャルミキサ Voicemeter Banana で複数のスピーカ・マイクを利用する](zoom-audio-voicemeter)
 - Mac: VB-CABLE + LadioCast
 
 ### 講義室の音響設備と接続する場合
