@@ -8,7 +8,7 @@ title: バーチャルミキサ Voicemeter Banana で複数のスピーカ・マ
 
 オーディオのミキシンクや出力先の選択を行うミキサの機能をソフトウェアで実現しパソコン上で動作させることが可能になってきた。このようなソフトウェアはバーチャルミキサと呼ばれる。
 
-ここでは、Windowsで動作するバーチャルミキサ(VB-AUDIO Voicemeter Banana)[https://www.vb-audio.com/Voicemeeter/banana.htm]の利用例について紹介する。
+ここでは、Windowsで動作するバーチャルミキサ[VB-AUDIO Voicemeter Banana]([https://www.vb-audio.com/Voicemeeter/banana.htm)の利用例について紹介する。
 
 Voicemeter Bananaは3つまでの入力・出力を扱うことができるが、ここでは2つのスピーカ・マイク（Yamaha YVC-300とPJP-20UR）を利用する例を示す。
 （機器の選択以外の設定では、3つの機器を利用する設定となっている。）
