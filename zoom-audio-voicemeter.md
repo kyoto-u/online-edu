@@ -63,7 +63,7 @@ Voicemeter Bananaをインストールすると、以下の仮想デバイスが
 - スピーカの機器として**「VoiceMeter Input」**を選択する
 - マイクの機器として**「VoiceMeter Output」**を選択する
 
-![Zoomのオーディオ設定](zoom--voicemeter.png)
+![Zoomのオーディオ設定](zoom-setting-voicemeter.png)
 
 ### Zoomでの設定テスト
 
