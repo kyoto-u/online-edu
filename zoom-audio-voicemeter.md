@@ -6,7 +6,7 @@ title: バーチャルミキサ Voicemeter Banana で複数のスピーカ・マ
 
 # バーチャルミキサ Voicemeter Banana で複数のスピーカ・マイクを利用する
 
-オーディオのミキシンクや出力先の選択を行うミキサの機能をソフトウェアで実現しパソコン上で動作させることが可能になってきた。このようなソフトウェアはバーチャルミキサと呼ばれる。
+オーディオのミキシンクや出力先の選択を行うミキサの機能をソフトウェアで実現し、パソコン上で動作させることが可能となっている。このようなソフトウェアはバーチャルミキサと呼ばれる。
 
 ここでは、Windowsで動作するバーチャルミキサ[VB-AUDIO Voicemeter Banana]([https://www.vb-audio.com/Voicemeeter/banana.htm)の利用例について紹介する。
 
@@ -15,11 +15,11 @@ Voicemeter Bananaは3つまでの入力・出力を扱うことができるが�
 
 ## 入力（マイク）の選択と出力先の指定
 
-- HARDWARE INPUT 1: WDM: Yamaha YVC-300
-- HARDWARE INPUT 2: WDM: Yamaha PJP-20UR
-- HARDWARE INPUT 3: - remove device section - （必要に応じて3つめの機器を指定する）
+- HARDWARE INPUT 1: **WDM: Yamaha YVC-300**
+- HARDWARE INPUT 2: **WDM: Yamaha PJP-20UR**
+- HARDWARE INPUT 3: **- remove device section -** （必要に応じて3つめの機器を指定する）
 
-次に、HARDWARE INPUT 1/2/3のそれぞれのセクションで、フェーダ（上下に操作して音量を調整するスライドボリューム）の右横にあるボタンで*「>B1」*のみを選択（それ以外はOFFにする）。
+次に、HARDWARE INPUT 1/2/3のそれぞれのセクションで、フェーダ（上下に操作して音量を調整するスライドボリューム）の右横にあるボタンで**「>B1」**のみを選択（それ以外はOFFにする）。
 
 ### 補足
 
@@ -28,14 +28,14 @@ MME (windows MultiMedia Extensions)はWDM (Windows Driver Model)より古いイ�
 
 ## 出力（スピーカ）の選択
 
-- A1: WDM: Yamaha YVC-300
-- A2: WDM: Yamaha PJP-20UR
-- A3: - remove device section - （必要に応じて3つめの機器を指定する）
+- A1: **WDM: Yamaha YVC-300**
+- A2: **WDM: Yamaha PJP-20UR**
+- A3: **- remove device section -** （必要に応じて3つめの機器を指定する）
 
 ## PC音声の出力先の選択
 
 VIRTUAL INPUTSのセクションでは、2つのバーチャルオーディオデバイスについて設定可能になっているが、ここでは左側の「Voicemeter VAIO」を利用する。
-フェーダの右横にあるボタンで*「>A1」「>A2」「>A3」*を選択（それ以外はOFFにする）。
+フェーダの右横にあるボタンで**「>A1」「>A2」「>A3」**を選択（それ以外はOFFにする）。
 
 ## Zoomのオーディオ設定
 
@@ -48,8 +48,8 @@ Voicemeter Bananaをインストールすると、以下の仮想デバイスが
 
 この中から、Zoomのオーディを設定では次のように指定する。
 
-- スピーカの機器として「VoiceMeter Input」を選択する
-- マイクの機器として「VoiceMeter Output」を選択する
+- スピーカの機器として**「VoiceMeter Input」**を選択する
+- マイクの機器として**「VoiceMeter Output」**を選択する
 
 ### Zoomでの設定テスト
 
