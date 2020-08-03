@@ -23,4 +23,6 @@ title: 室内音響設備をYamaha AG06経由でPCに接続する
 
 ![接続図](ag06-config.png)
 
+![設定図](ag06-routing.png)
+
 Last modified: 2020/7/23
