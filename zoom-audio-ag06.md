@@ -28,6 +28,10 @@ title: 室内音響設備をYamaha AG06経由でPCに接続する
 - JVC AP-102A
 - Sony PC-503M
 
+## その他の参考情報
+Windowsで再生音が時々歪む場合は、ドライバーをインストール（更新）すると改善する場合があるようです。
+- https://jp.yamaha.com/support/updates/yamaha_steinberg_usb_driver_for_win.html
+
 ![接続図](ag06-config.png)
 
 ![設定図](ag06_routing.png)
