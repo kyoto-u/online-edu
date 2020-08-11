@@ -36,4 +36,4 @@ Windowsで再生音が時々歪む場合は、ドライバーをインストー�
 
 ![設定図](ag06_routing.png)
 
-Last modified: 2020/8/2
+Last modified: 2020/8/10
