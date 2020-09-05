@@ -134,6 +134,7 @@ title: 対面とオンラインの同時併用授業の実施方法と必要設�
 - Windows: Voicemeeter ([https://www.vb-audio.com/](https://www.vb-audio.com/))
   - [バーチャルミキサ Voicemeter Banana で複数のスピーカ・マイクを利用する](zoom-audio-voicemeter)
 - Mac: VB-CABLE + LadioCast
+  - [Macで複数のスピーカ・マイクを利用する](zoom-audio-ladiocast)
 
 ### 講義室の音響設備と接続する場合
 
