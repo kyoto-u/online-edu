@@ -17,6 +17,8 @@ title: バーチャルミキサ LadioCast で複数のスピーカ・マイク�
 
 LadioCastは4つまでの入力を扱うことができるが、ここでは2つのスピーカ・マイク（Yamaha YVC-300とPJP-20UR）を利用する例を示す。
 
+なお、Bluetooth接続は遅延が大きいため、エコーキャンセラがうまく機能しないことがあることに注意が必要である。
+
 ![LadioCast利用ブロック図](audio-block-ladiocast.png)
 
 ## 出力（スピーカ）の複数出力設定
