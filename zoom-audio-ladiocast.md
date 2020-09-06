@@ -17,6 +17,8 @@ title: バーチャルミキサ LadioCast で複数のスピーカ・マイク�
 
 LadioCastは4つまでの入力を扱うことができるが、ここでは2つのスピーカ・マイク（Yamaha YVC-300とPJP-20UR）を利用する例を示す。
 
+![LadioCast利用ブロック図](audio-block-ladiocast.png)
+
 ## 出力（スピーカ）の複数出力設定
 
 1. 「Audio MIDI 設定」を開く
@@ -61,6 +63,3 @@ LadioCastは4つまでの入力を扱うことができるが、ここでは2つ
 レベルメータの振れ方も参考に、LadioCastのミキサー設定のパネルで入力音量（バランス）の調整を行う。
 
 個別のミュートボタンはないが、各入力の出力先選択で「メイン」をON/OFFすれば、ミュートの代わりとして利用できる。
-
-![LadioCast利用ブロック図](audio-block-ladiocast.png)
-
