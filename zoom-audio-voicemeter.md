@@ -13,6 +13,8 @@ title: バーチャルミキサ Voicemeter Banana で複数のスピーカ・マ
 Voicemeter Bananaは3つまでの入力・出力を扱うことができるが、ここでは2つのスピーカ・マイク（Yamaha YVC-300とPJP-20UR）を利用する例を示す。
 （機器の選択以外の設定では、3つの機器を利用する設定となっている。）
 
+![VoiceMeter利用ブロック図](audio-block-voicemeter.png)
+
 ## 入力（マイク）の選択と出力先の指定
 
 - HARDWARE INPUT 1: **WDM: Yamaha YVC-300**
@@ -70,4 +72,3 @@ Voicemeter Bananaをインストールすると、以下の仮想デバイスが
 1. Zoomのオーディオ設定画面で「スピーカのテスト」をクリックして、Voicemeterのレベルメータが振れ、選択した複数のスピーカから音が聞こえることを確認する。
 2. マイクに向かって話すと、Voicemeterのマイクのレベルメータが振れることを確認する。また、Zoomのオーディオ設定画面で「マイクのテスト」をクリックして、マイクに向かって話した声が、スピーカから再生されることを確認する。
 
-![VoiceMeter利用ブロック図](audio-block-voicemeter.png)
