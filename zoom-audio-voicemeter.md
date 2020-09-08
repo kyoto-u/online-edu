@@ -16,7 +16,7 @@ Voicemeeter Bananaは3つまでの入力・出力を扱うことができる。�
 
 なお、Bluetooth接続はさらに遅延が大きくなるため、エコーキャンセラがうまく機能しないだけでなく、ずれた音が聞こえることにより不快になったりすることがあることに注意が必要である。
 
-![VoiceMeeter利用ブロック図](audio-block-voicemeter.png)
+![VoiceMeeter利用ブロック図](audio-block-voicemeeter.png)
 
 ## 入力（マイク）の選択と出力先の指定
 
@@ -36,7 +36,7 @@ Voicemeeter Bananaは3つまでの入力・出力を扱うことができる。�
 MME (windows MultiMedia Extensions)はWDM (Windows Driver Model)より古いインタフェース規格であり、遅延（音の遅れ）が少し大きい。どちらも選択できる場合はWDMを選択する方が良いが、特に必要がない限り、利用する複数音機器で統一した方が良いと思われる。
 また、WDMは排他制御を行うため、他のアプリで利用中の機器を選択できないことがある。
 
-![VoiceMeeterの入力設定](voicemeter-config-in.png)
+![VoiceMeeterの入力設定](voicemeeter-config-in.png)
 
 ## 出力（スピーカ）の選択
 
@@ -52,7 +52,7 @@ MME (windows MultiMedia Extensions)はWDM (Windows Driver Model)より古いイ�
 VIRTUAL INPUTSのセクションでは、2つのバーチャルオーディオデバイスについて設定可能になっているが、ここでは左側の「Voicemeeter VAIO」を利用する。
 フェーダの右横にあるボタンで**「>A1」「>A2」「>A3」**を選択（それ以外はOFFにする）。
 
-![VoiceMeeterの出力設定](voicemeter-config-out.png)
+![VoiceMeeterの出力設定](voicemeeter-config-out.png)
 
 ## Zoomのオーディオ設定
 
@@ -68,7 +68,7 @@ Voicemeeter Bananaをインストールすると、以下の仮想デバイス�
 - スピーカの機器として**「VoiceMeeter Input」**を選択する
 - マイクの機器として**「VoiceMeeter Output」**を選択する
 
-![Zoomのオーディオ設定](zoom-setting-voicemeter.png)
+![Zoomのオーディオ設定](zoom-setting-voicemeeter.png)
 
 ### Zoomでの設定テスト
 
