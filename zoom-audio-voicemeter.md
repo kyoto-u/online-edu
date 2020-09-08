@@ -1,21 +1,22 @@
 ---
 layout: default
-title: バーチャルミキサ Voicemeter Banana で複数のスピーカ・マイクを利用する 
+title: バーチャルミキサ Voicemeeter Banana で複数のスピーカ・マイクを利用する 
 ---
 上位ページ: [対面とオンラインの同時併用授業の実施方法と必要設備について](zoom-hybrid-use)
 
-# バーチャルミキサ Voicemeter Banana で複数のスピーカ・マイクを利用する
+# バーチャルミキサ Voicemeeter Banana で複数のスピーカ・マイクを利用する
 
 オーディオのミキシンクや出力先の選択を行うミキサの機能をソフトウェアで実現し、パソコン上で動作させることが可能となっている。このようなソフトウェアはバーチャルミキサと呼ばれる。
 
-ここでは、Windowsで動作するバーチャルミキサ[VB-AUDIO Voicemeter Banana]([https://www.vb-audio.com/Voicemeeter/banana.htm)の利用例について紹介する。
+ここでは、Windowsで動作するバーチャルミキサ[VB-AUDIO Voicemeeter Banana](https://www.vb-audio.com/Voicemeeter/banana.htm)の利用例について紹介する。
 
-Voicemeter Bananaは3つまでの入力・出力を扱うことができるが、ここでは2つのスピーカ・マイク（Yamaha YVC-300とPJP-20UR）を利用する例を示す。
+Voicemeeter Bananaは3つまでの入力・出力を扱うことができる。ここでは2つのスピーカ・マイク（Yamaha YVC-300とPJP-20UR）を利用する例を示す。
+わかりやすさのために、異なる機種を利用しているが、音の遅延の違いなどによる無用のトラブルを避けるため、同一機種を利用することが望ましい。
 （機器の選択以外の設定では、3つの機器を利用する設定となっている。）
 
-なお、Bluetooth接続は遅延が大きいため、エコーキャンセラがうまく機能しないことがあることに注意が必要である。
+なお、Bluetooth接続はさらに遅延が大きくなるため、エコーキャンセラがうまく機能しないだけでなく、ずれた音が聞こえることにより不快になったりすることがあることに注意が必要である。
 
-![VoiceMeter利用ブロック図](audio-block-voicemeter.png)
+![VoiceMeeter利用ブロック図](audio-block-voicemeter.png)
 
 ## 入力（マイク）の選択と出力先の指定
 
@@ -32,10 +33,10 @@ Voicemeter Bananaは3つまでの入力・出力を扱うことができるが�
 
 ### 補足
 
-MME (windows MultiMedia Extensions)はWDM (Windows Driver Model)より古いインタフェース規格であり、遅延（音の遅れ）が少し大きい。どちらも選択できる場合はWDMを選択する方が良いが、利用する複数音機器で統一した方が良いと思われる。
+MME (windows MultiMedia Extensions)はWDM (Windows Driver Model)より古いインタフェース規格であり、遅延（音の遅れ）が少し大きい。どちらも選択できる場合はWDMを選択する方が良いが、特に必要がない限り、利用する複数音機器で統一した方が良いと思われる。
 また、WDMは排他制御を行うため、他のアプリで利用中の機器を選択できないことがある。
 
-![VoiceMeterの入力設定](voicemeter-config-in.png)
+![VoiceMeeterの入力設定](voicemeter-config-in.png)
 
 ## 出力（スピーカ）の選択
 
@@ -48,29 +49,29 @@ MME (windows MultiMedia Extensions)はWDM (Windows Driver Model)より古いイ�
 
 ## PC音声の出力先の選択
 
-VIRTUAL INPUTSのセクションでは、2つのバーチャルオーディオデバイスについて設定可能になっているが、ここでは左側の「Voicemeter VAIO」を利用する。
+VIRTUAL INPUTSのセクションでは、2つのバーチャルオーディオデバイスについて設定可能になっているが、ここでは左側の「Voicemeeter VAIO」を利用する。
 フェーダの右横にあるボタンで**「>A1」「>A2」「>A3」**を選択（それ以外はOFFにする）。
 
-![VoiceMeterの出力設定](voicemeter-config-out.png)
+![VoiceMeeterの出力設定](voicemeter-config-out.png)
 
 ## Zoomのオーディオ設定
 
-Voicemeter Bananaをインストールすると、以下の仮想デバイスが追加される。
+Voicemeeter Bananaをインストールすると、以下の仮想デバイスが追加される。
 
-- スピーカ: VoiceMeter Input
-- スピーカ: VoiceMeter Aux Input
-- マイク: VoiceMeter Output
-- マイク: VoiceMeter Aux Output
+- スピーカ: VoiceMeeter Input
+- スピーカ: VoiceMeeter Aux Input
+- マイク: VoiceMeeter Output
+- マイク: VoiceMeeter Aux Output
 
 この中から、Zoomのオーディを設定では次のように指定する。
 
-- スピーカの機器として**「VoiceMeter Input」**を選択する
-- マイクの機器として**「VoiceMeter Output」**を選択する
+- スピーカの機器として**「VoiceMeeter Input」**を選択する
+- マイクの機器として**「VoiceMeeter Output」**を選択する
 
 ![Zoomのオーディオ設定](zoom-setting-voicemeter.png)
 
 ### Zoomでの設定テスト
 
-1. Zoomのオーディオ設定画面で「スピーカのテスト」をクリックして、Voicemeterのレベルメータが振れ、選択した複数のスピーカから音が聞こえることを確認する。
-2. マイクに向かって話すと、Voicemeterのマイクのレベルメータが振れることを確認する。また、Zoomのオーディオ設定画面で「マイクのテスト」をクリックして、マイクに向かって話した声が、スピーカから再生されることを確認する。
+1. Zoomのオーディオ設定画面で「スピーカのテスト」をクリックして、Voicemeeterのレベルメータが振れ、選択した複数のスピーカから音が聞こえることを確認する。
+2. マイクに向かって話すと、Voicemeeterのマイクのレベルメータが振れることを確認する。また、Zoomのオーディオ設定画面で「マイクのテスト」をクリックして、マイクに向かって話した声が、スピーカから再生されることを確認する。
 
