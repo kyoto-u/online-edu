@@ -13,12 +13,12 @@ title: スピーカーフォン情報
   - マイクを合計5台まで増設可能
   - 外部スピーカを接続して広い部屋に対応可能 (室内音響設備に接続可能)
   - 外部マイクを増設可能
-  - エコーキャンセラー内蔵
+  - エコーキャンセラー内蔵 (外部接続を含め動作)
 
-- [eMeet Luna](https://www.emeet.ai/Luna.html) 
-- [eMeet M220](https://www.emeet.ai/M220.html)
+- [eMeet Luna](https://www.emeet.ai/Luna.html) / [eMeet M220](https://www.emeet.ai/M220.html)
   - USB/Bluetooth/アナログケーブル接続に対応
   - 2台をアナログケーブルで連結して利用可能 (eMeet M2 連結不可)
+    - 連結時の増設側のマイクは動作しない?
   - 外部スピーカを接続して広い部屋に対応可能 (室内音響設備に接続可能)
   - 外部マイクを増設可能
   - エコーキャンセラー内蔵 (外部接続を含め動作)
@@ -26,14 +26,27 @@ title: スピーカーフォン情報
 - [Yamaha YVC-330](https://sound-solution.yamaha.com/products/uc/yvc-330/index)
   - USB/Bluetooth/アナログケーブル接続に対応
   - 2台の330をアナログケーブルで連結して利用可能
-  - 外部スピーカ/外部マイク接続不可
+  - 外部スピーカ接続不可
+  - 外部マイク接続不可
+  - エコーキャンセラー内蔵
   
 - [Jabra Speak 710](https://www.jabra.jp/business/speakerphones/jabra-speak-series/jabra-speak-710)
   - USB/Bluetooth接続に対応
   - 2台の710をBluetoothで連結して利用可能
+  - 外部スピーカ接続不可
+  - 外部マイク接続不可
+  - エコーキャンセラー内蔵
   
-- NTTテクノクロス R-Talk
+- [NTTテクノクロス R-Talk](http://www.v-series.jp/r-talk/)
+  - USB/Bluetooth/アナログケーブル接続に対応
   - マイクを合計2～4台まで接続可能
-  
+  - 外部スピーカを接続して広い部屋に対応可能 (室内音響設備に接続可能)
+  - エコーキャンセラー内蔵
+
 - [Anker PowerConf](https://www.ankerjapan.com/category/CONFERENCESPEAKER/A3301.html)
+  - USB/Bluetooth接続に対応
+  - 連結利用不可
+  - 外部スピーカを接続して広い部屋に対応可能 (室内音響設備に接続可能)
+  - 外部マイク接続不可
+  - エコーキャンセラー内蔵 (外部スピーカに対しては動作しない?)
 
