@@ -60,4 +60,10 @@ title: スピーカーフォン情報
   - 外部マイク接続不可
   - エコーキャンセラー内蔵 (外部スピーカに対しては動作しない?)
   
-  また、スピーカーフォンに増設する外部スピーカとして、YAMAHA YVC-1000のページには[STAGEPAS 600BT/400BT](https://jp.yamaha.com/products/proaudio/pa_systems/stagepas_400bt_600bt/index.html)が紹介されているが、[ミライスピーカ](https://soundfun.co.jp/)も小型ながら遠くまでよく聞こえるので試す価値あり。
+# 外部スピーカ
+
+スピーカーフォンに増設する外部スピーカとして、
+YAMAHA YVC-1000のページには[STAGEPAS 600BT/400BT](https://jp.yamaha.com/products/proaudio/pa_systems/stagepas_400bt_600bt/index.html)
+が紹介されているが、
+[ミライスピーカ](https://soundfun.co.jp/)
+も小型ながら遠くまでよく聞こえるので試す価値あり。
