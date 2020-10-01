@@ -11,6 +11,8 @@ title: オンラインミーティングサービス(Zoom全学ライセンス)�
 
 [Zoomアプリ（クライアント）のダウンロード](https://zoom.us/download#client_4meeting)
 
+[キャンパスでオンライン授業を受ける学生に対する諸注意](online-lecture-oncampus.pdf) (10/1追加) 
 
 
-(最終更新：2020年4月20日)
+
+(最終更新：2020年10月1日)
