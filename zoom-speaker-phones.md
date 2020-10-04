@@ -35,7 +35,8 @@ title: スピーカーフォン情報
 - [eMeet Luna](https://www.emeet.ai/Luna.html) / [eMeet M220](https://www.emeet.ai/M220.html)
   - USB/Bluetooth/アナログケーブル接続に対応
   - 2台をアナログケーブルで連結して利用可能 (eMeet M2 は連結不可)
-    - 純正ケーブルで接続しないと、増設側のマイクが動作しない
+    - 純正ケーブルで接続しないと増設側のマイクが動作しない
+    - 純正ケーブルを4極延長ケーブルを利用して延長することが可能
   - 外部スピーカを接続して広い部屋に対応可能 (室内音響設備に接続可能)
   - 外部入力端子は増設マイク用として利用できない
   - エコーキャンセラー内蔵 (外部スピーカを含め動作)
@@ -50,15 +51,15 @@ title: スピーカーフォン情報
 - [Jabra Speak 710](https://www.jabra.jp/business/speakerphones/jabra-speak-series/jabra-speak-710)
   - USB/Bluetooth接続に対応
   - 2台の710をBluetoothで連結して利用可能
-  - アナログ入出力端子なし
+  - アナログ入出力端子なし （外部スピーカ接続端子なし）
   - エコーキャンセラー内蔵
 
 - [Anker PowerConf](https://www.ankerjapan.com/category/CONFERENCESPEAKER/A3301.html)
   - USB/Bluetooth接続に対応
   - 連結利用不可
-  - 外部スピーカを接続して広い部屋に対応可能 (室内音響設備に接続可能)
+  - 外部スピーカを接続して広い部屋に対応可能？ (内蔵エコーキャンセラー動作対象外？）
   - 外部マイク接続不可
-  - エコーキャンセラー内蔵 (外部スピーカに対しては動作しない?)
+  - エコーキャンセラー内蔵 (外部スピーカに対しては動作しない？)
   
 # 外部スピーカ
 
