@@ -3,7 +3,7 @@ layout: default
 title: 
 ---
 
-# Zoom KU Lisence Portal 
+# Zoom KU License Portal 
 [Japanese information](zoom)
 
 <a id="anch00"></a>
