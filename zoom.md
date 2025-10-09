@@ -1,9 +1,9 @@
 ---
 layout: default
-title: オンラインミーティングサービス(Zoom全学ライセンス) 情報置き場
+title: {{ site.name }}
+
 ---
 
-# Zoom全学ライセンスポータルサイトの移動について
+本サイトは公開を終了しました。
 
-Zoom全学ライセンスポータルは全学Zoomサービスポータルに改称の上、
-[https://sites.google.com/kyoto-u.ac.jp/zoom-portal/](https://sites.google.com/kyoto-u.ac.jp/zoom-portal/) に移動しました。
+京都大学のZoomサービスの利用方法については[全学Zoomサービスポータル](https://sites.google.com/kyoto-u.ac.jp/zoom-portal/)をご覧ください。
