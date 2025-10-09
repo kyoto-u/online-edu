@@ -7,19 +7,19 @@ include:
   panda.md
   kaltura.md
   zoom.md
-  zoom-security.md
-  a_zoom_classroom.md
-  b_zoom_own.md
-  c1_slidedeck.md
-  c2_video_capture.md
-  d_slidedeck_share.md
-  e_others.md
+#  zoom-security.md
+#  a_zoom_classroom.md
+#  b_zoom_own.md
+#  c1_slidedeck.md
+#  c2_video_capture.md
+#  d_slidedeck_share.md
+#  e_others.md
 
 # relative_links:
 #   enabled: true
 #   collections: true
 
-title: 京都大学 Panda／Zoom／Kaltura利用支援サイト
+title: 京都大学 Panda／Zoom／Kaltura利用支援サイト（公開終了）
 # description: " aaaa"
 
 # github:
